@@ -1,0 +1,1 @@
+{"name":"lawmeup","version":"1.0.0","description":"Find open class action settlements (US + Canada), check eligibility, and go to the official claim form.","main":"server.js","scripts":{"start":"node server.js","refresh":"node lib/build.js"},"engines":{"node":">=18"},"license":"MIT"}
