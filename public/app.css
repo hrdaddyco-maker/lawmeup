@@ -80,3 +80,5 @@ li.ok:before{content:"✓";background:var(--green-bg);color:var(--green)}li.no:b
 .prose{max-width:780px}.prose h2{margin-top:26px}.prose li{margin:6px 0}
 @media (max-width:900px){.detail{grid-template-columns:1fr}.quiz{position:static}.layout{grid-template-columns:1fr}.filters{position:static;display:none}.filters.open{display:flex}.filter-toggle{display:inline-flex}.keyfacts{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.two,.checks,.row2{grid-template-columns:1fr}.hero{padding:30px 20px;border-radius:18px}.top nav a[data-nav=about]{display:none}.top{padding:10px 12px}.brand span{font-size:19px}.top nav a{padding:7px 10px;font-size:14px}.facts{grid-template-columns:1fr 1fr 1fr}.panel{padding:18px}.match{grid-template-columns:1fr}.search .btn{padding:10px 14px}}
+.top nav .sm{display:none}
+@media (max-width:640px){.top nav .lg{display:none}.top nav .sm{display:inline}.top{flex-wrap:nowrap}.legal-strip{font-size:12px}}
