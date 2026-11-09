@@ -22,3 +22,9 @@ The server re-runs this on boot if the data is >20h old and every 24h.
 - Optional AI (`/api/ai/explain`, `/api/ai/parse`) via Pollinations' free keyless OpenAI-compatible API. Set `LLM_URL`, `LLM_KEY`, `LLM_MODEL` to use another provider.
 
 Run: `npm start` (Node 18+, no dependencies).
+
+## v2 sections (Nov 2026)
+- **Unclaimed money** (`#/unclaimed`): official searches per province/state plus Canadian federal (Bank of Canada, CRA, Service Canada) and U.S. multi-state/federal (MissingMoney, Unclaimed.org, TreasuryDirect, IRS, PBGC, DOL, NAIC, FDIC). Runs entirely in the browser; names are never sent to the server. Official sites don't accept a name in the URL, so we offer copy buttons. Links live in `data/resources.js`.
+- **Refunds & recalls** (`#/refunds`): APPR / EU261 / UK261 / U.S. DOT estimate calculator, VIN copy + Transport Canada and NHTSA lookups, Health Canada and CPSC product search links.
+- **For businesses** (`#/business`): settlements where businesses are class members (`audience: business|both` in `data/curated.js`), plus a Visa/Mastercard interchange status card.
+- **Watch** (`#/watch`): saves the qualify profile in localStorage and shows a "new matches" badge after each daily refresh. Email alerts are not implemented (no server-side storage of people's data).
