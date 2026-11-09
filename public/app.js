@@ -229,7 +229,7 @@ function qualifyView() {
 async function results(p) {
   app.innerHTML = '<div class="loading">Ranking settlements…</div>';
   const { results } = await api('/api/qualify', p);
-  const head = `<div class="resbar"><div><h1 style="margin:0;font-size:28px;letter-spacing:-.02em">Your matches</h1><span>${results.length} settlement${results.length === 1 ? '' : 's'} ranked by how well they fit what you told us. Open one to confirm with its specific questions.</span></div><a class="btn btn-ghost" href="#/qualify">Edit answers</a></div>`;
+  const head = `<div class="resbar"><div><h1 style="margin:0;font-size:28px;letter-spacing:-.02em;color:var(--ink)">Your matches</h1><span>${results.length} settlement${results.length === 1 ? '' : 's'} ranked by how well they fit what you told us. Open one to confirm with its specific questions.</span></div><a class="btn btn-ghost" href="#/qualify">Edit answers</a></div>`;
   if (!results.length) { app.innerHTML = head + `<div class="empty panel">No matches yet. Try adding more brands or situations, include the other country, or <a href="#/browse">browse everything</a>.</div>`; return; }
   const strengthPill = s => s === 'strong' ? '<span class="pill green">Strong match</span>' : s === 'possible' ? '<span class="pill amber">Possible match</span>' : '<span class="pill">Worth a look</span>';
   app.innerHTML = head + `<div class="grid">${results.map(r => card(r.settlement, `<div class="pills">${strengthPill(r.strength)}</div><p class="def" style="-webkit-line-clamp:4"><b>Why it's here:</b> ${esc(r.reasons.join(' · '))}</p>`)).join('')}</div>`;
