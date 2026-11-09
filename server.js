@@ -1,6 +1,7 @@
 const http = require('http'), fs = require('fs'), path = require('path'), zlib = require('zlib');
 const { build } = require('./lib/build');
 const { evaluate, qualify, SITUATIONS } = require('./lib/eligibility');
+const RESOURCES = require('./data/resources');
 const PORT = process.env.PORT || 3000;
 const LLM_URL = process.env.LLM_URL || 'https://text.pollinations.ai/openai';
 const LLM_KEY = process.env.LLM_KEY || '';
@@ -17,8 +18,8 @@ let refreshing = false;
 async function refresh(reason) {
   if (refreshing) return; refreshing = true;
   try {
-    const prev = {}; for (const s of db.settlements) if (s.url_check) prev[s.claim_url] = { ...s.url_check, at: Date.parse(s.url_check.checked_at) };
-    const d = await build({ prev });
+    const prev = {}, prevSeen = {}; for (const s of db.settlements) { prevSeen[s.id] = s.first_seen; if (s.url_check) prev[s.claim_url] = { ...s.url_check, at: Date.parse(s.url_check.checked_at) }; }
+    const d = await build({ prev, prevSeen });
     if (d.count >= 30) { db = d; index = byId(); try { fs.writeFileSync(DATA, JSON.stringify(d)); } catch {} console.log('refreshed', reason, d.count); }
   } catch (e) { console.log('refresh failed', e.message); } finally { refreshing = false; }
 }
@@ -75,6 +76,7 @@ http.createServer(async (req, res) => {
   try {
     if (url.pathname === '/healthz') return J(200, { ok: true, count: db.count });
     if (url.pathname === '/api/meta') return J(200, { count: db.count, generated_at: db.generated_at, sources: db.sources, situations: Object.fromEntries(Object.entries(SITUATIONS).map(([k, v]) => [k, v.label])), ai: { provider: LLM_URL.includes('pollinations') ? 'Pollinations (free, keyless)' : 'custom' } });
+    if (url.pathname === '/api/resources') return J(200, RESOURCES); // static list of official links; nothing about the user is sent or logged
     if (url.pathname === '/api/settlements') return J(200, { generated_at: db.generated_at, settlements: db.settlements.map(listView) });
     let m;
     if ((m = url.pathname.match(/^\/api\/settlements\/([\w-]+)$/))) { const s = index.get(m[1]); return s ? J(200, s) : J(404, { error: 'Not found' }); }

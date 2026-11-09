@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-09T11:53:01.850Z",
- "count": 203,
+ "generated_at": "2026-11-09T12:40:34.890Z",
+ "count": 205,
  "sources": [
   "https://www.classaction.org/settlements",
   "https://www.canooq.ca/blog/current-class-action-settlements-canada-deadlines-payouts",
@@ -42,14 +42,73 @@
    "id": "boohoo-advertised-sales",
    "url": "http://www.boohoonationwidepricingsettlement.com/",
    "why": "error 500"
-  },
-  {
-   "id": "tyson-beef-prices",
-   "url": "https://www.beefdirectpurchasersettlement.com/home",
-   "why": "error 403"
   }
  ],
  "settlements": [
+  {
+   "id": "generic-pharmaceuticals-antitrust",
+   "name": "Generic Pharmaceuticals Antitrust Settlement",
+   "defendant": "Generic Pharmaceuticals Antitrust",
+   "country": "US",
+   "region": {
+    "states": [],
+    "note": "United States (nationwide)"
+   },
+   "category": "antitrust",
+   "category_label": "Antitrust / price-fixing",
+   "class_definition": "You may be able to claim a piece of this settlement if you paid for certain prescription generic drugs between May 1, 2009 and December 31, 2019.",
+   "deadline": "2026-11-09",
+   "deadline_text": null,
+   "payout": "Varies",
+   "payout_range": null,
+   "proof": "Yes",
+   "claim_url": "https://www.genericdrugsendpayersettlement.com/",
+   "audience": "both",
+   "source": "https://www.classaction.org/settlements#generic-pharmaceuticals-antitrust",
+   "source_name": "ClassAction.org open settlements list",
+   "why": "End payers allege generic drug makers conspired to fix prices and allocate customers for many generic drugs from 2009 to 2019. Consumers and third-party payers (health plans, self-insured employers) that paid for the drugs can claim from the settlements.",
+   "why_source": "reviewed",
+   "questions": [
+    {
+     "id": "core",
+     "kind": "req",
+     "q": "Is this true for you? You paid for certain prescription generic drugs between May 1, 2009 and December 31, 2019."
+    },
+    {
+     "id": "us",
+     "kind": "req",
+     "q": "Did this happen in the United States?"
+    },
+    {
+     "id": "proof",
+     "kind": "info",
+     "q": "Do you have proof (receipts, statements, records) for this?"
+    }
+   ],
+   "questions_source": "auto-generated from class definition",
+   "docs": [
+    "Proof of purchase or records showing you are in the class"
+   ],
+   "tags": [
+    "generic drugs",
+    "health plan",
+    "self-insured employer",
+    "third-party payer",
+    "pharmacy",
+    "prescription",
+    "generic pharmaceuticals antitrust"
+   ],
+   "featured": true,
+   "url_check": {
+    "status": 200,
+    "ok": true,
+    "note": "resolves",
+    "final": "https://www.genericdrugsendpayersettlement.com/",
+    "at": 1794225137073,
+    "checked_at": "2026-11-09T11:52:17.073Z"
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
+  },
   {
    "id": "cvs-data-privacy",
    "name": "CVS - Data Privacy Settlement",
@@ -72,6 +131,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.cvsdigitalprivacysettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#cvs-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges CVS let ad-tech company Criteo and other third parties collect data about people using cvs.com, cvshealth.com and the CVS app through tracking code embedded in those sites, in violation of state and federal privacy laws. CVS and Criteo deny wrongdoing.",
@@ -111,9 +171,11 @@
     "final": "https://www.cvsdigitalprivacysettlement.com/",
     "at": 1794225135583,
     "checked_at": "2026-11-09T11:52:15.583Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-caf-racism",
    "name": "Canadian Armed Forces Racial Discrimination Settlement (late claims only)",
    "defendant": "Government of Canada (CAF)",
@@ -177,7 +239,81 @@
     "final": "https://www.classaction.deloitte.ca/en-CA/caf-racism-class-action/",
     "at": 1794225137255,
     "checked_at": "2026-11-09T11:52:17.255Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
+  },
+  {
+   "audience": "business",
+   "id": "savannah-ready-mix-concrete",
+   "name": "Savannah Ready-Mix Concrete Price-Fixing Settlements",
+   "defendant": "Argos, Lafarge, Coastal, Thomas, Evans & Elite (ready-mix concrete producers)",
+   "category": "antitrust",
+   "country": "US",
+   "region": {
+    "states": [
+     "Georgia",
+     "South Carolina"
+    ],
+    "provinces": [],
+    "note": "Greater Savannah, GA area plants"
+   },
+   "deadline": "2026-11-16",
+   "payout": "Pro rata share of $19M+",
+   "proof": "Varies",
+   "claim_url": "https://savannahconcretecase.com/",
+   "source": "https://savannahconcretecase.com/frequently-asked-questions.aspx",
+   "tags": [
+    "concrete",
+    "ready-mix",
+    "construction",
+    "contractor",
+    "builder",
+    "argos",
+    "lafarge",
+    "savannah"
+   ],
+   "class_definition": "All persons or entities who purchased ready-mixed concrete from January 1, 2010 through July 31, 2016 directly from one or more of the listed Savannah-area plants operated by the defendants (Pro Slab, Inc. v. Argos USA LLC, D.S.C.).",
+   "why": "Direct purchasers allege the Savannah-area ready-mix concrete producers conspired to fix prices from 2010 to 2016. Several defendants settled (over $19M total) without admitting wrongdoing; the case continues against others. Most class members were mailed a Claim ID and PIN with a pre-filled purchase amount.",
+   "questions": [
+    {
+     "id": "direct",
+     "q": "Did you or your business buy ready-mix concrete directly from Argos, Lafarge, Coastal, Thomas, Evans or Elite plants in the greater Savannah area between Jan 1, 2010 and July 31, 2016?",
+     "kind": "req"
+    },
+    {
+     "id": "notice",
+     "q": "Did you receive a notice with a Claim ID and PIN? (It contains your pre-filled purchase amount.)",
+     "kind": "strong"
+    },
+    {
+     "id": "proof",
+     "q": "Do you have receipts, delivery tickets or invoices if you want to dispute the pre-filled amount?",
+     "kind": "info"
+    }
+   ],
+   "docs": [
+    "Claim ID and PIN from the mailed notice",
+    "Delivery tickets / invoices to change the pre-filled amount"
+   ],
+   "category_label": "Antitrust / price-fixing",
+   "payout_range": {
+    "min": 19,
+    "max": 19,
+    "upTo": false
+   },
+   "source_name": "Official administrator / Canadian class action trackers",
+   "why_source": "reviewed",
+   "questions_source": "reviewed",
+   "featured": true,
+   "url_check": {
+    "status": 403,
+    "ok": true,
+    "note": "live (bot-protected; opens in a normal browser)",
+    "final": "https://savannahconcretecase.com/",
+    "at": 1794228033242,
+    "checked_at": "2026-11-09T12:40:33.242Z"
+   },
+   "first_seen": "2026-11-09T12:40:34.890Z"
   },
   {
    "id": "teleflora-unwanted-calls",
@@ -201,6 +337,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.tfsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#teleflora-unwanted-calls",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Teleflora sent repeated promotional text messages without proper consent, violating the Telephone Consumer Protection Act (TCPA).",
@@ -237,9 +374,11 @@
     "final": "https://www.tfsettlement.com/",
     "at": 1794225136963,
     "checked_at": "2026-11-09T11:52:16.963Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "both",
    "id": "ca-cibc-mutual-funds",
    "name": "CIBC & Renaissance Mutual Funds Trailing Commissions Settlement",
    "defendant": "CIBC Asset Management / CIBC",
@@ -298,9 +437,11 @@
     "final": "https://cibcmutualfundssettlement.com/",
     "at": 1794225137058,
     "checked_at": "2026-11-09T11:52:17.058Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-mont-sainte-anne-gondola",
    "name": "Mont-Sainte-Anne Gondola Sudden Stops Settlement",
    "defendant": "Station Mont-Sainte-Anne Inc.",
@@ -365,7 +506,72 @@
     "final": "https://proactio.ca/en/class-action/suddengondolastops/",
     "at": 1794225137123,
     "checked_at": "2026-11-09T11:52:17.123Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
+  },
+  {
+   "id": "twitter-acquisition-securities",
+   "name": "Twitter Acquisition - Securities Settlement",
+   "defendant": "Twitter Acquisition",
+   "country": "US",
+   "region": {
+    "states": [],
+    "note": "United States (nationwide)"
+   },
+   "category": "securities",
+   "category_label": "Investments",
+   "class_definition": "If you sold the publicly traded stock or call options, or purchased the put options, of Twitter, Inc. between May 13, 2022 and October 4, 2022, you may be included in this settlement.",
+   "deadline": "2026-11-24",
+   "deadline_text": null,
+   "payout": "Varies",
+   "payout_range": null,
+   "proof": "Yes",
+   "claim_url": "https://twitteracquisitionlitigation.com/",
+   "audience": "both",
+   "source": "https://www.classaction.org/settlements#twitter-acquisition-securities",
+   "source_name": "ClassAction.org open settlements list",
+   "why": "Investors allege Twitter Acquisition or related parties made misleading statements or charged improper fees that cost investors money.",
+   "why_source": "general background for this case type",
+   "questions": [
+    {
+     "id": "core",
+     "kind": "req",
+     "q": "Is this true for you? You sold the publicly traded stock or call options, or purchased the put options, of Twitter, Inc. between May 13, 2022 and October 4, 2022."
+    },
+    {
+     "id": "us",
+     "kind": "req",
+     "q": "Did this happen in the United States?"
+    },
+    {
+     "id": "proof",
+     "kind": "info",
+     "q": "Do you have proof (receipts, statements, records) for this?"
+    }
+   ],
+   "questions_source": "auto-generated from class definition",
+   "docs": [
+    "Brokerage statements / trade confirmations"
+   ],
+   "tags": [
+    "twitter",
+    "stock",
+    "options",
+    "investor",
+    "fund",
+    "securities",
+    "twitter acquisition"
+   ],
+   "featured": true,
+   "url_check": {
+    "status": 403,
+    "ok": true,
+    "note": "live (bot-protected; opens in a normal browser)",
+    "final": "https://twitteracquisitionlitigation.com/",
+    "at": 1794225136527,
+    "checked_at": "2026-11-09T11:52:16.527Z"
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "dr-squatch-all-natural-claims",
@@ -385,6 +591,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.personalcareproductssettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#dr-squatch-all-natural-claims",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Dr. Squatch marketed certain soaps and personal-care products as \"natural\" even though they contained ingredients the plaintiffs say are synthetic. Dr. Squatch denies the claims. Payment is pro rata, depending on how many valid claims are filed.",
@@ -427,7 +634,8 @@
     "final": "https://www.personalcareproductssettlement.com/",
     "at": 1794225135472,
     "checked_at": "2026-11-09T11:52:15.472Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "equifax-inquiry-disputes",
@@ -451,6 +659,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.equifaxdisputeclassaction.com/default.aspx",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#equifax-inquiry-disputes",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit claims Equifax did not reasonably investigate consumers' mailed disputes of hard inquiries on their credit reports, as the Fair Credit Reporting Act requires.",
@@ -488,7 +697,8 @@
     "final": "https://www.equifaxdisputeclassaction.com/default.aspx",
     "at": 1794225136437,
     "checked_at": "2026-11-09T11:52:16.437Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "navy-federal-credit-union-unauthorized-personal-loan-accounts",
@@ -512,6 +722,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.nfculoansettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#navy-federal-credit-union-unauthorized-personal-loan-accounts",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit claims Navy Federal failed to stop fraudsters from opening personal loans in members' names, and failed to cancel the loans after impersonators tricked members into moving the money.",
@@ -550,9 +761,96 @@
     "final": "https://www.nfculoansettlement.com/",
     "at": 1794225136558,
     "checked_at": "2026-11-09T11:52:16.558Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "id": "tyson-beef-prices",
+   "name": "Tyson - Beef Prices Settlement",
+   "defendant": "Tyson Foods, Inc. & Tyson Fresh Meats (beef packers)",
+   "country": "US",
+   "region": {
+    "states": [],
+    "note": "United States (nationwide)"
+   },
+   "category": "antitrust",
+   "category_label": "Antitrust / price-fixing",
+   "class_definition": "You may be included in this settlement if you bought boxed or case-ready beef directly from Cargill, JBS, National Beef or Tyson between January 1, 2015 and February 10, 2022.",
+   "deadline": "2026-11-30",
+   "deadline_text": null,
+   "payout": "Pro rata share of $80M (plus earlier $52.5M JBS fund)",
+   "payout_range": {
+    "min": 52.5,
+    "max": 80,
+    "upTo": false
+   },
+   "proof": "No",
+   "claim_url": "https://beefdirectpurchasersettlement.com/",
+   "url_manual": "live (verified via web reader; the site blocks scripts)",
+   "audience": "business",
+   "source": "https://www.classaction.org/settlements#tyson-beef-prices",
+   "source_name": "ClassAction.org open settlements list",
+   "why": "Direct purchasers allege the four big beef packers (Tyson, JBS, Cargill and National Beef) conspired to cut slaughter volumes and raise wholesale beef prices from 2015 on. Tyson agreed to pay $82.5M ($80M to the class) and denies wrongdoing; JBS settled earlier for $52.5M. Claims that were already approved in the JBS settlement are included automatically.",
+   "why_source": "reviewed",
+   "questions": [
+    {
+     "id": "direct",
+     "q": "Did your business buy boxed or case-ready beef (chuck, loin, rib or round) DIRECTLY from Tyson, JBS, Cargill or National Beef (or their affiliates) between Jan 1, 2015 and Feb 29, 2020?",
+     "kind": "req"
+    },
+    {
+     "id": "us",
+     "q": "Was it for use or delivery in the United States?",
+     "kind": "req"
+    },
+    {
+     "id": "notexcluded",
+     "q": "Was at least some of it ordinary beef, i.e. NOT organic, grass-fed, kosher, halal, Wagyu, or cooked/marinated/seasoned?",
+     "kind": "strong"
+    },
+    {
+     "id": "jbs",
+     "q": "Did you already file a claim in the earlier JBS beef settlement? (If yes, you are included automatically.)",
+     "kind": "info"
+    },
+    {
+     "id": "proof",
+     "q": "Do you have invoices or purchase records from the packer?",
+     "kind": "info"
+    }
+   ],
+   "questions_source": "reviewed",
+   "docs": [
+    "Purchase records/invoices from the packers (volume and dollars)",
+    "Business legal name and EIN/TIN",
+    "Your JBS claim number if you filed before"
+   ],
+   "tags": [
+    "beef",
+    "tyson",
+    "jbs",
+    "cargill",
+    "national beef",
+    "meat",
+    "restaurant",
+    "grocery",
+    "food distributor",
+    "wholesale",
+    "tyson foods",
+    "tyson fresh meats (beef packers)"
+   ],
+   "featured": true,
+   "url_check": {
+    "status": 200,
+    "ok": true,
+    "note": "live (verified via web reader; the site blocks scripts)",
+    "at": 1794228033177,
+    "checked_at": "2026-11-09T12:40:33.177Z"
+   },
+   "first_seen": "2026-11-09T12:40:34.890Z"
+  },
+  {
+   "audience": "both",
    "id": "ca-wayland-maricann",
    "name": "Wayland Group / Maricann Securities Settlement",
    "defendant": "Wayland Group Corp. (formerly Maricann)",
@@ -616,9 +914,11 @@
     "final": "https://www.nuvoclaims.com/en/our-settlements/wayland-group",
     "at": 1794225137367,
     "checked_at": "2026-11-09T11:52:17.367Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-quebec-opioids",
    "name": "Quebec Opioids Class Action Settlement",
    "defendant": "Opioid manufacturers and distributors (settling defendants)",
@@ -685,7 +985,8 @@
     "final": "https://www.mnp.ca/en/services/corporate-and-consumer-insolvency/class-action/quebec-opioids-class-action",
     "at": 1794225137061,
     "checked_at": "2026-11-09T11:52:17.061Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "mdlive-data-privacy",
@@ -709,6 +1010,7 @@
    },
    "proof": "No",
    "claim_url": "https://ehisettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#mdlive-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges MDLIVE's patient portal used tracking technology that shared users' information with third parties without proper consent.",
@@ -746,7 +1048,8 @@
     "final": "https://ehisettlement.com/",
     "at": 1794225136337,
     "checked_at": "2026-11-09T11:52:16.337Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "amazon-return-policy",
@@ -766,6 +1069,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.returnsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#amazon-return-policy",
    "source_name": "ClassAction.org open settlements list",
    "why": "Customers allege Amazon charged them, or did not fully refund them, for items they returned, sometimes after Amazon had received the return. Amazon denies wrongdoing.",
@@ -807,9 +1111,11 @@
     "final": "https://www.returnsettlement.com/",
     "at": 1794225136369,
     "checked_at": "2026-11-09T11:52:16.369Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-ont-jail-lockdowns",
    "name": "Ontario Corrections Staffing-Related Lockdowns Settlement",
    "defendant": "Government of Ontario",
@@ -876,7 +1182,8 @@
     "final": "https://portal.ontjailstafflockdowns.ca/",
     "at": 1794225137044,
     "checked_at": "2026-11-09T11:52:17.044Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "capital-one-arena-concessions",
@@ -898,6 +1205,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.venuefeesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#capital-one-arena-concessions",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit claims Aramark added a 3% \"venue fee\" to food and drink purchases at Capital One Arena without properly disclosing it, which plaintiffs say violated the D.C. Consumer Protection Procedures Act.",
@@ -938,7 +1246,8 @@
     "final": "https://www.venuefeesettlement.com/",
     "at": 1794225135412,
     "checked_at": "2026-11-09T11:52:15.412Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "bank-of-america-electronic-fund-transfers",
@@ -958,6 +1267,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.eftabankingsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#bank-of-america-electronic-fund-transfers",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit claims Bank of America violated the Electronic Fund Transfer Act by improperly denying customers' disputes over unauthorized debit card/ATM transactions and not explaining its decisions properly.",
@@ -995,7 +1305,8 @@
     "final": "https://www.eftabankingsettlement.com/",
     "at": 1794225136306,
     "checked_at": "2026-11-09T11:52:16.306Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "thinkware-systems-dashcams",
@@ -1015,6 +1326,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.twcamerasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#thinkware-systems-dashcams",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Thinkware advertised \"Super Night Vision\" on its X700, F200PRO, DC-M2-FG(-IR) and F70PRO dashcams without disclosing the feature only worked in parking mode.",
@@ -1054,7 +1366,8 @@
     "final": "https://www.twcamerasettlement.com/",
     "at": 1794225136032,
     "checked_at": "2026-11-09T11:52:16.032Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "simplilearn-data-privacy",
@@ -1074,6 +1387,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://simplilearnprivacysettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#simplilearn-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "Users allege Simplilearn shared information about the course videos they watched with third parties (such as Meta) via tracking tools, in violation of video privacy law. Simplilearn denies wrongdoing.",
@@ -1110,7 +1424,8 @@
     "final": "https://simplilearnprivacysettlement.com/",
     "at": 1794225136047,
     "checked_at": "2026-11-09T11:52:16.047Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "toyota-airbag-control-units",
@@ -1130,6 +1445,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.airbagcontrolunitsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#toyota-airbag-control-units",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege certain 2011-2019 Toyota vehicles have ZF-TRW airbag control units vulnerable to electrical overstress, which could cause airbags not to deploy in a crash. Toyota denies the claims.",
@@ -1174,7 +1490,8 @@
     "final": "https://www.airbagcontrolunitsettlement.com/",
     "at": 1794225136005,
     "checked_at": "2026-11-09T11:52:16.005Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "kroger-prescription-drug-prices",
@@ -1194,6 +1511,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.krogersavingsclubsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#kroger-prescription-drug-prices",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Kroger pharmacies charged insured customers more for generic prescriptions than the lower cash prices Kroger offered through its savings club, inflating its reported \"usual and customary\" prices. Kroger denies wrongdoing.",
@@ -1235,7 +1553,8 @@
     "final": "https://www.krogersavingsclubsettlement.com/",
     "at": 1794225135914,
     "checked_at": "2026-11-09T11:52:15.914Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "iphone-siri-apple-intelligence",
@@ -1259,6 +1578,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.smartphoneaisettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#iphone-siri-apple-intelligence",
    "source_name": "ClassAction.org open settlements list",
    "why": "Buyers allege Apple advertised Apple Intelligence and an upgraded, more personal Siri as features of the iPhone 15 Pro and iPhone 16 line, when key promised Siri features were not available. Apple denies wrongdoing.",
@@ -1302,7 +1622,8 @@
     "final": "https://www.smartphoneaisettlement.com/",
     "at": 1794225135891,
     "checked_at": "2026-11-09T11:52:15.891Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "connectamerica-unwanted-calls",
@@ -1326,6 +1647,7 @@
    },
    "proof": "No",
    "claim_url": "https://connectamericatcpasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#connectamerica-unwanted-calls",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege ConnectAmerica, a medical-alert company, placed prerecorded telemarketing calls without consent in violation of the TCPA.",
@@ -1362,7 +1684,8 @@
     "final": "https://connectamericatcpasettlement.com/",
     "at": 1794225135947,
     "checked_at": "2026-11-09T11:52:15.947Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "equifax-credit-report",
@@ -1386,6 +1709,7 @@
    },
    "proof": "No",
    "claim_url": "https://equifaxfaircreditreportingsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#equifax-credit-report",
    "source_name": "ClassAction.org open settlements list",
    "why": "In spring 2022 a coding glitch on an Equifax server produced inaccurate credit scores for some consumers that were sent to lenders. The lawsuit alleges this violated the Fair Credit Reporting Act.",
@@ -1422,7 +1746,8 @@
     "final": "https://equifaxfaircreditreportingsettlement.com/",
     "at": 1794225135749,
     "checked_at": "2026-11-09T11:52:15.749Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "goodrx-data-privacy",
@@ -1442,6 +1767,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://goodrxprivacysettlement.com/home",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#goodrx-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit follows FTC findings that GoodRx shared users' health information (like prescription and medication data) with advertisers such as Facebook and Google through tracking tools, despite promising to keep it private. GoodRx denies the class claims.",
@@ -1479,9 +1805,78 @@
     "final": "https://goodrxprivacysettlement.com/home",
     "at": 1794225135810,
     "checked_at": "2026-11-09T11:52:15.810Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "id": "john-deere-large-agricultural-equipment-repairs",
+   "name": "John Deere - Large Agricultural Equipment Repairs Settlement",
+   "defendant": "Deere & Company",
+   "country": "US",
+   "region": {
+    "states": [],
+    "note": "United States (nationwide)"
+   },
+   "category": "antitrust",
+   "category_label": "Antitrust / price-fixing",
+   "class_definition": "You may be covered by this settlement if you paid for repair services for John Deere large agricultural equipment from John Deere or a Deere authorized dealer between January 10, 2018 and May 18, 2026.",
+   "deadline": "2026-12-31",
+   "deadline_text": null,
+   "payout": "Varies",
+   "payout_range": null,
+   "proof": "No",
+   "claim_url": "https://www.deererepairsettlement.com/",
+   "audience": "both",
+   "source": "https://www.classaction.org/settlements#john-deere-large-agricultural-equipment-repairs",
+   "source_name": "ClassAction.org open settlements list",
+   "why": "Farmers allege Deere monopolized the repair market for its large agricultural equipment by withholding the software and tools needed for repairs, forcing owners to use Deere and its dealers at inflated prices. Deere denies wrongdoing.",
+   "why_source": "reviewed",
+   "questions": [
+    {
+     "id": "paid",
+     "q": "Did you (or your farm/business) pay Deere or an authorized Deere dealer for repair services on large John Deere agricultural equipment (e.g., tractors, combines) between Jan 10, 2018 and May 18, 2026?",
+     "kind": "req"
+    },
+    {
+     "id": "us",
+     "q": "Were the repairs done in the United States?",
+     "kind": "req"
+    },
+    {
+     "id": "proof",
+     "q": "Do you have repair invoices or dealer records?",
+     "kind": "info"
+    }
+   ],
+   "questions_source": "reviewed",
+   "docs": [
+    "Dealer repair invoices (dates and amounts)",
+    "Equipment serial numbers",
+    "Business name and EIN if filing as a farm/business"
+   ],
+   "tags": [
+    "john deere",
+    "deere",
+    "tractor",
+    "combine",
+    "farm equipment",
+    "right to repair",
+    "farm",
+    "agriculture"
+   ],
+   "featured": true,
+   "url_check": {
+    "status": 200,
+    "ok": true,
+    "note": "resolves",
+    "final": "https://www.deererepairsettlement.com/",
+    "at": 1794225135700,
+    "checked_at": "2026-11-09T11:52:15.700Z"
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
+  },
+  {
+   "audience": "consumer",
    "id": "ca-manitoba-csa",
    "name": "Manitoba Children's Special Allowance Settlement",
    "defendant": "Government of Manitoba",
@@ -1541,9 +1936,11 @@
     "final": "https://www.csasettlement.com/",
     "at": 1794225137132,
     "checked_at": "2026-11-09T11:52:17.132Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-bc-segregation",
    "name": "BC Solitary Confinement / Segregation Settlement",
    "defendant": "Province of British Columbia (BC Corrections)",
@@ -1604,7 +2001,8 @@
     "final": "https://proactio.ca/en/class-action/british-columbia-solitary-confinement/",
     "at": 1794225137101,
     "checked_at": "2026-11-09T11:52:17.101Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "warner-music-group-data-breach",
@@ -1628,6 +2026,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.wmgdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#warner-music-group-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege hackers gained access to payment card information entered on online merch stores run by Warner Music Group subsidiaries between April and August 2020.",
@@ -1665,7 +2064,8 @@
     "final": "https://www.wmgdatasettlement.com/",
     "at": 1794225135620,
     "checked_at": "2026-11-09T11:52:15.620Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "realpage-rent-price-fixing",
@@ -1685,6 +2085,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.realpagerentalsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#realpage-rent-price-fixing",
    "source_name": "ClassAction.org open settlements list",
    "why": "Renters allege RealPage and many large landlords shared confidential rental data through RealPage pricing software to push rents above competitive levels, an alleged antitrust violation. A roughly $360 million fund has received final approval from settling defendants; others deny wrongdoing.",
@@ -1731,9 +2132,11 @@
     "final": "https://www.realpagerentalsettlement.com/",
     "at": 1794225135557,
     "checked_at": "2026-11-09T11:52:15.557Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-gc-privacy-breach",
    "name": "Government of Canada Online Account Privacy Breach (Sweet v. Canada)",
    "defendant": "Government of Canada (CRA / GCKey)",
@@ -1807,7 +2210,8 @@
     "final": "https://www.breachsettlementcanada.kpmg.ca/",
     "at": 1794225137447,
     "checked_at": "2026-11-09T11:52:17.447Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "buyalerts-unwanted-texts",
@@ -1831,6 +2235,7 @@
    },
    "proof": "No",
    "claim_url": "https://buyalertstcpasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#buyalerts-unwanted-texts",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges BuyAlerts kept sending marketing texts to people who had opted out or were on the National Do Not Call Registry.",
@@ -1871,9 +2276,11 @@
     "final": "https://buyalertstcpasettlement.com/",
     "at": 1794225135534,
     "checked_at": "2026-11-09T11:52:15.534Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-xarelto",
    "name": "Xarelto (Rivaroxaban) Settlement",
    "defendant": "Bayer Inc.",
@@ -1932,9 +2339,11 @@
     "final": "https://www.mnp.ca/xareltosettlement",
     "at": 1794225137126,
     "checked_at": "2026-11-09T11:52:17.126Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-apple-gift-card",
    "name": "Apple iTunes & App Store Gift Card Scam Settlement",
    "defendant": "Apple Inc., Apple Value Services & Apple Canada",
@@ -2006,9 +2415,11 @@
     "final": "https://www.giftcardsettlement.ca/",
     "at": 1794225137011,
     "checked_at": "2026-11-09T11:52:17.011Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-indian-boarding-homes",
    "name": "Indian Boarding Homes Settlement",
    "defendant": "Government of Canada",
@@ -2067,7 +2478,8 @@
     "final": "https://boardinghomesclassaction.com/claim-forms/",
     "at": 1794225137583,
     "checked_at": "2026-11-09T11:52:17.583Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "non-bank-atm-surcharges",
@@ -2087,6 +2499,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.nonbankatmsurchargesettlement.com/home",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#non-bank-atm-surcharges",
    "source_name": "ClassAction.org open settlements list",
    "why": "This antitrust case alleges Visa and Mastercard rules stopped independent (non-bank) ATM operators from offering lower fees for cheaper networks, inflating the surcharges people paid to withdraw cash. Visa and Mastercard deny wrongdoing.",
@@ -2125,7 +2538,8 @@
     "final": "https://www.nonbankatmsurchargesettlement.com/home",
     "at": 1794225135639,
     "checked_at": "2026-11-09T11:52:15.639Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "tenet-healthcare-corporation-data-privacy",
@@ -2149,6 +2563,7 @@
    },
    "proof": "No",
    "claim_url": "https://tenetpixelsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#tenet-healthcare-corporation-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "Patients allege Tenet's hospital websites, patient portals and the Healthelife app contained tracking technologies (like Meta Pixel) that sent their health-related information to third parties without consent. Tenet denies wrongdoing.",
@@ -2187,9 +2602,11 @@
     "final": "https://tenetpixelsettlement.com/",
     "at": 1794225135482,
     "checked_at": "2026-11-09T11:52:15.482Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-ns-waitlist",
    "name": "Nova Scotia Disability Services Waitlist Settlement",
    "defendant": "Province of Nova Scotia",
@@ -2246,7 +2663,8 @@
     "final": "https://portal.nswaitlistsettlement.ca/",
     "at": 1794225137346,
     "checked_at": "2026-11-09T11:52:17.346Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "merrill-lynch-retirement-accounts",
@@ -2266,6 +2684,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://www.mlretirementaccountlitigation.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#merrill-lynch-retirement-accounts",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff alleges Merrill paid an unreasonably low interest rate on cash in self-directed Merrill Edge retirement accounts that was automatically swept into affiliated bank deposit accounts.",
@@ -2306,7 +2725,8 @@
     "final": "https://www.mlretirementaccountlitigation.com/",
     "at": 1794225135542,
     "checked_at": "2026-11-09T11:52:15.542Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "hyundai-kia-airbag-control-units",
@@ -2330,6 +2750,7 @@
    },
    "proof": "Yes",
    "claim_url": "https://www.acusettlement.com/hyundaikia",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#hyundai-kia-airbag-control-units",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges certain Hyundai and Kia vehicles contain defective ZF-TRW airbag control units that can suffer \"electrical overstress,\" which may stop airbags and other safety features from working in a crash.",
@@ -2374,7 +2795,8 @@
     "final": "https://www.acusettlement.com/hyundaikia",
     "at": 1794225135452,
     "checked_at": "2026-11-09T11:52:15.452Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "hyundai-kia-vehicle-theft",
@@ -2398,6 +2820,7 @@
    },
    "proof": "Yes",
    "claim_url": "https://www.hkmultistateimmobilizersettlement.com/home",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#hyundai-kia-vehicle-theft",
    "source_name": "ClassAction.org open settlements list",
    "why": "States allege many 2011-2022 Hyundai and Kia models lacked engine immobilizers, making them easy to steal (the viral \"Kia Boys\" thefts). This multistate settlement pays owners whose eligible vehicle was stolen or damaged in a theft attempt.",
@@ -2449,9 +2872,11 @@
     "final": "https://www.hkmultistateimmobilizersettlement.com/home",
     "at": 1794225135497,
     "checked_at": "2026-11-09T11:52:15.497Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-ile-a-la-crosse",
    "name": "Île-à-la-Crosse School Settlement",
    "defendant": "Government of Canada & Government of Saskatchewan",
@@ -2505,9 +2930,11 @@
     "final": "https://ilexsettlement.ca/",
     "at": 1794225137225,
     "checked_at": "2026-11-09T11:52:17.225Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-fiat-500-quebec",
    "name": "Fiat 500 Door Handles Quebec Settlement",
    "defendant": "FCA Canada (Stellantis)",
@@ -2569,9 +2996,11 @@
     "final": "https://www.reglementfiat500poigneesdeportes.ca/fr",
     "at": 1794225138016,
     "checked_at": "2026-11-09T11:52:18.016Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-tobacco-pan-canadian",
    "name": "Tobacco Claims Canada — Pan-Canadian Claimants Plan",
    "defendant": "Imperial Tobacco, Rothmans Benson & Hedges, JTI-Macdonald",
@@ -2631,9 +3060,11 @@
     "final": "https://www.tobaccoclaimscanada.ca/",
     "at": 1794225137149,
     "checked_at": "2026-11-09T11:52:17.149Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-ontario-training-schools",
    "name": "Ontario Training Schools Settlement",
    "defendant": "Government of Ontario",
@@ -2693,9 +3124,11 @@
     "final": "https://www.trainingschoolsclassaction.com/en/claim",
     "at": 1794225137157,
     "checked_at": "2026-11-09T11:52:17.157Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-fn-child-welfare",
    "name": "First Nations Child and Family Services & Jordan's Principle Settlement",
    "defendant": "Government of Canada",
@@ -2760,9 +3193,11 @@
     "final": "https://fnchildclaims.ca/",
     "at": 1794225137188,
     "checked_at": "2026-11-09T11:52:17.188Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
+   "audience": "consumer",
    "id": "ca-indian-hospitals",
    "name": "Federal Indian Hospitals Settlement",
    "defendant": "Government of Canada",
@@ -2820,7 +3255,70 @@
     "final": "https://ihsettlement.ca/",
     "at": 1794225137201,
     "checked_at": "2026-11-09T11:52:17.201Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
+  },
+  {
+   "id": "sanyo-energy-solar-panels",
+   "name": "Sanyo Energy - Solar Panels Settlement",
+   "defendant": "Sanyo Energy",
+   "country": "US",
+   "region": {
+    "states": [],
+    "note": "United States (nationwide)"
+   },
+   "category": "housing",
+   "category_label": "Housing & property",
+   "class_definition": "You may be covered by this settlement if you bought solar panels from Sanyo or if you bought a residence or building with the panels already installed.",
+   "deadline": null,
+   "deadline_text": "Varies / ongoing (check official site)",
+   "payout": "Varies",
+   "payout_range": null,
+   "proof": "Yes",
+   "claim_url": "https://www.sanyosolarclaims.com/",
+   "audience": "both",
+   "source": "https://www.classaction.org/settlements#sanyo-energy-solar-panels",
+   "source_name": "ClassAction.org open settlements list",
+   "why": "Residents allege Sanyo Energy caused them harm or losses connected to their homes or property.",
+   "why_source": "general background for this case type",
+   "questions": [
+    {
+     "id": "core",
+     "kind": "req",
+     "q": "Is this true for you? You bought solar panels from Sanyo or if you bought a residence or building with the panels already installed."
+    },
+    {
+     "id": "us",
+     "kind": "req",
+     "q": "Did this happen in the United States?"
+    },
+    {
+     "id": "proof",
+     "kind": "info",
+     "q": "Do you have proof (receipts, statements, records) for this?"
+    }
+   ],
+   "questions_source": "auto-generated from class definition",
+   "docs": [
+    "Proof of purchase or records showing you are in the class"
+   ],
+   "tags": [
+    "sanyo",
+    "solar panels",
+    "building owner",
+    "property",
+    "sanyo energy"
+   ],
+   "featured": true,
+   "url_check": {
+    "status": 403,
+    "ok": true,
+    "note": "live (bot-protected; opens in a normal browser)",
+    "final": "https://www.sanyosolarclaims.com/",
+    "at": 1794225135402,
+    "checked_at": "2026-11-09T11:52:15.402Z"
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "valley-oaks-health-data-breach",
@@ -2844,6 +3342,7 @@
    },
    "proof": "No",
    "claim_url": "https://valleyoaksdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#valley-oaks-health-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Valley Oaks Health failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Valley Oaks Health typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -2882,7 +3381,8 @@
     "final": "https://valleyoaksdatasettlement.com/",
     "at": 1794225137147,
     "checked_at": "2026-11-09T11:52:17.147Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "covenant-transport-job-postings-washington",
@@ -2908,6 +3408,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.covenanttransportsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#covenant-transport-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs claim that Defendant violated Washington law, RCW 49.58.110, when it allegedly did not disclose the wage scale or salary range and/or provide a general description of benefits or other compensation being offered on job postings for open team driver positions. You give up any right to sue Defendant, and certain parties related to Defendant, about the claims that have been or could have been asserted based on the facts alleged in this Lawsuit.",
@@ -2940,7 +3441,8 @@
     "final": "https://www.covenanttransportsettlement.com/",
     "at": 1794225137224,
     "checked_at": "2026-11-09T11:52:17.224Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "forbes-data-privacy-california",
@@ -2962,6 +3464,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.mediasitetrackersettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#forbes-data-privacy-california",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Forbes shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Forbes denies wrongdoing.",
@@ -2993,63 +3496,8 @@
     "final": "https://www.mediasitetrackersettlement.com/",
     "at": 1794225136956,
     "checked_at": "2026-11-09T11:52:16.956Z"
-   }
-  },
-  {
-   "id": "generic-pharmaceuticals-antitrust",
-   "name": "Generic Pharmaceuticals Antitrust Settlement",
-   "defendant": "Generic Pharmaceuticals Antitrust",
-   "country": "US",
-   "region": {
-    "states": [],
-    "note": "United States (nationwide)"
    },
-   "category": "health",
-   "category_label": "Health & pharmacy",
-   "class_definition": "You may be able to claim a piece of this settlement if you paid for certain prescription generic drugs between May 1, 2009 and December 31, 2019.",
-   "deadline": "2026-11-09",
-   "deadline_text": null,
-   "payout": "Varies",
-   "payout_range": null,
-   "proof": "Yes",
-   "claim_url": "https://www.genericdrugsendpayersettlement.com/",
-   "source": "https://www.classaction.org/settlements#generic-pharmaceuticals-antitrust",
-   "source_name": "ClassAction.org open settlements list",
-   "why": "The lawsuit alleges Generic Pharmaceuticals Antitrust overcharged or harmed patients or customers in connection with medical services or products.",
-   "why_source": "general background for this case type",
-   "questions": [
-    {
-     "id": "core",
-     "kind": "req",
-     "q": "Is this true for you? You paid for certain prescription generic drugs between May 1, 2009 and December 31, 2019."
-    },
-    {
-     "id": "us",
-     "kind": "req",
-     "q": "Did this happen in the United States?"
-    },
-    {
-     "id": "proof",
-     "kind": "info",
-     "q": "Do you have proof (receipts, statements, records) for this?"
-    }
-   ],
-   "questions_source": "auto-generated from class definition",
-   "docs": [
-    "Proof of purchase or records showing you are in the class"
-   ],
-   "tags": [
-    "generic pharmaceuticals antitrust"
-   ],
-   "featured": false,
-   "url_check": {
-    "status": 200,
-    "ok": true,
-    "note": "resolves",
-    "final": "https://www.genericdrugsendpayersettlement.com/",
-    "at": 1794225137073,
-    "checked_at": "2026-11-09T11:52:17.073Z"
-   }
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "peco-foods-data-breach",
@@ -3073,6 +3521,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.pecofoodsdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#peco-foods-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Peco Foods failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Peco Foods typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3111,7 +3560,8 @@
     "final": "https://www.pecofoodsdatasettlement.com/",
     "at": 1794225137054,
     "checked_at": "2026-11-09T11:52:17.054Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "twin-cities-pain-clinic-data-breach",
@@ -3135,6 +3585,7 @@
    },
    "proof": "No",
    "claim_url": "https://tcpcdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#twin-cities-pain-clinic-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Twin Cities Pain Clinic failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Twin Cities Pain Clinic typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3173,7 +3624,8 @@
     "final": "https://tcpcdatasettlement.com/",
     "at": 1794225136991,
     "checked_at": "2026-11-09T11:52:16.991Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "boone-health-data-privacy-missouri",
@@ -3199,6 +3651,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.boonehealthsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#boone-health-data-privacy-missouri",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Boone Health shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Boone Health denies wrongdoing.",
@@ -3230,7 +3683,8 @@
     "final": "https://www.boonehealthsettlement.com/",
     "at": 1794225137009,
     "checked_at": "2026-11-09T11:52:17.009Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "alliance-ground-international-biometric-privacy-illinois",
@@ -3256,6 +3710,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.zkbipasettlement.com/?lang=en",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#alliance-ground-international-biometric-privacy-illinois",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges that Defendant violated an Illinois law called the Illinois Biometric Information Privacy Act (\"BIPA\") when it allegedly collected individuals' biometric data when they used a finger-scan and face-scan timeclock without complying with the law's requirements. Keep your right to file your own lawsuit against the Released Parties about the Released Claims that are released by the Settlement in this lawsuit.",
@@ -3287,7 +3742,8 @@
     "final": "https://www.zkbipasettlement.com/?lang=en",
     "at": 1794225136906,
     "checked_at": "2026-11-09T11:52:16.906Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "wellstar-health-system-data-privacy",
@@ -3307,6 +3763,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://wellstardataprivacysettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#wellstar-health-system-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Wellstar Health System shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Wellstar Health System denies wrongdoing.",
@@ -3338,7 +3795,8 @@
     "final": "https://wellstardataprivacysettlement.com/",
     "at": 1794225136934,
     "checked_at": "2026-11-09T11:52:16.934Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "laguna-honda-hospital-privacy",
@@ -3362,6 +3820,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.lhhsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#laguna-honda-hospital-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs' class claims allege that the City and County of San Francisco violated California Health and Safety Code section 1430(b) and the California Confidentiality of Medical Information Act, Civil Code § 56, et seq.",
@@ -3393,7 +3852,8 @@
     "final": "https://www.lhhsettlement.com/",
     "at": 1794225137206,
     "checked_at": "2026-11-09T11:52:17.206Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "communications-data-group-data-breach",
@@ -3417,6 +3877,7 @@
    },
    "proof": "No",
    "claim_url": "https://communicationsdatagroupsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#communications-data-group-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Communications Data Group failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Communications Data Group typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3455,7 +3916,8 @@
     "final": "https://communicationsdatagroupsettlement.com/",
     "at": 1794225136954,
     "checked_at": "2026-11-09T11:52:16.954Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "international-shoppes-data-breach",
@@ -3479,6 +3941,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.ishoppesdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#international-shoppes-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege International Shoppes failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. International Shoppes typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3517,7 +3980,8 @@
     "final": "https://www.ishoppesdatasettlement.com/",
     "at": 1794225136898,
     "checked_at": "2026-11-09T11:52:16.898Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "american-vision-partners-data-breach",
@@ -3541,6 +4005,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.americanvisionsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#american-vision-partners-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege American Vision Partners failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. American Vision Partners typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3579,7 +4044,8 @@
     "final": "https://www.americanvisionsettlement.com/",
     "at": 1794225136836,
     "checked_at": "2026-11-09T11:52:16.836Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "susan-b.-allen-memorial-hospital-data-breach",
@@ -3603,6 +4069,7 @@
    },
    "proof": "No",
    "claim_url": "https://sbamhdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#susan-b.-allen-memorial-hospital-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Susan B. Allen Memorial Hospital failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Susan B. Allen Memorial Hospital typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3641,7 +4108,8 @@
     "final": "https://sbamhdatasettlement.com/",
     "at": 1794225137088,
     "checked_at": "2026-11-09T11:52:17.088Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "autobell-data-breach",
@@ -3665,6 +4133,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.autobelldatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#autobell-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Autobell Car Wash failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Autobell Car Wash typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3703,7 +4172,8 @@
     "final": "https://www.autobelldatasettlement.com/",
     "at": 1794225137089,
     "checked_at": "2026-11-09T11:52:17.089Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "compucom-systems-job-postings-washington",
@@ -3729,6 +4199,7 @@
    },
    "proof": "Varies",
    "claim_url": "https://epoasettlementccsi.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#compucom-systems-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendant's job postings for open positions in Washington did not disclose the wage scale or salary range and general description of all of the benefits and other compensation being offered in violation of Washington law.",
@@ -3761,7 +4232,8 @@
     "final": "https://epoasettlementccsi.com/",
     "at": 1794225137000,
     "checked_at": "2026-11-09T11:52:17.000Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "sandwich-sc-job-postings-washington",
@@ -3783,6 +4255,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://epoasettlementsscl.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#sandwich-sc-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendant's job postings for open positions in Washington did not disclose the wage scale or salary range and/or general description of benefits being offered in violation of Washington law.",
@@ -3815,7 +4288,8 @@
     "final": "https://epoasettlementsscl.com/",
     "at": 1794225137013,
     "checked_at": "2026-11-09T11:52:17.013Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "high-5-games-washington",
@@ -3837,6 +4311,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.high5lawsuit.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#high-5-games-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff alleges that in-app purchases of virtual coins in Defendants' social casino applications, High 5 Casino and High 5 Vegas, violated Washington law.",
@@ -3868,7 +4343,8 @@
     "final": "https://www.high5lawsuit.com/",
     "at": 1794225136880,
     "checked_at": "2026-11-09T11:52:16.880Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "california-casualty-group-data-breach",
@@ -3894,6 +4370,7 @@
    },
    "proof": "No",
    "claim_url": "https://cacasualtydatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#california-casualty-group-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege California Casualty Group failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. California Casualty Group typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3932,7 +4409,8 @@
     "final": "https://cacasualtydatasettlement.com/",
     "at": 1794225136893,
     "checked_at": "2026-11-09T11:52:16.893Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "brevard-skin-and-cancer-center-data-breach",
@@ -3956,6 +4434,7 @@
    },
    "proof": "No",
    "claim_url": "https://brevardskindatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#brevard-skin-and-cancer-center-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Brevard Skin & Cancer Center failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Brevard Skin & Cancer Center typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -3995,7 +4474,8 @@
     "final": "https://brevardskindatasettlement.com/",
     "at": 1794225136907,
     "checked_at": "2026-11-09T11:52:16.907Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "albany-college-of-pharmacy-and-health-sciences-data-breach",
@@ -4019,6 +4499,7 @@
    },
    "proof": "No",
    "claim_url": "https://albanycollegesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#albany-college-of-pharmacy-and-health-sciences-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Albany College of Pharmacy and Health Sciences failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Albany College of Pharmacy and Health Sciences typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4058,7 +4539,8 @@
     "final": "https://albanycollegesettlement.com/",
     "at": 1794225136924,
     "checked_at": "2026-11-09T11:52:16.924Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "onetouchpoint-data-breach",
@@ -4082,6 +4564,7 @@
    },
    "proof": "No",
    "claim_url": "https://otpdataincident.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#onetouchpoint-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "OTP denies each and all of the claims and contentions alleged against it in the Lawsuit and denies all charges of wrongdoing or liability alleged (or which could be alleged) in the Lawsuit but has agreed to a settlement to avoid the costs and risks associated with continuing the litigation.",
@@ -4120,7 +4603,8 @@
     "final": "https://otpdataincident.com/",
     "at": 1794225136844,
     "checked_at": "2026-11-09T11:52:16.844Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "folsom-insurance-agency-unwanted-calls",
@@ -4144,6 +4628,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.folsomsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#folsom-insurance-agency-unwanted-calls",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Folsom Insurance Agency sent marketing texts, calls or faxes without the consent required by the Telephone Consumer Protection Act (TCPA) or similar state laws.",
@@ -4181,7 +4666,8 @@
     "final": "https://www.folsomsettlement.com/",
     "at": 1794225136776,
     "checked_at": "2026-11-09T11:52:16.776Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "jefferson-county-health-department-data-breach",
@@ -4205,6 +4691,7 @@
    },
    "proof": "No",
    "claim_url": "https://jeffersoncountybreachsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#jefferson-county-health-department-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Jefferson County Health Department failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Jefferson County Health Department typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4243,7 +4730,8 @@
     "final": "https://jeffersoncountybreachsettlement.com/",
     "at": 1794225136751,
     "checked_at": "2026-11-09T11:52:16.751Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "regional-urology-data-breach",
@@ -4267,6 +4755,7 @@
    },
    "proof": "No",
    "claim_url": "https://regionalurologydatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#regional-urology-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Regional Urology failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Regional Urology typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4305,7 +4794,8 @@
     "final": "https://regionalurologydatasettlement.com/",
     "at": 1794225136931,
     "checked_at": "2026-11-09T11:52:16.931Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "cuso-financial-services-data-breach",
@@ -4329,6 +4819,7 @@
    },
    "proof": "No",
    "claim_url": "https://cusocybersecurityincident.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#cuso-financial-services-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege CUSO Financial Services failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. CUSO Financial Services typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4367,7 +4858,8 @@
     "final": "https://cusocybersecurityincident.com/",
     "at": 1794225136912,
     "checked_at": "2026-11-09T11:52:16.912Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "sizzling-platter-job-postings-washington",
@@ -4389,6 +4881,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://sizzlingplattersettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#sizzling-platter-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Two individuals, James Russell Norman, and Cherie Burke, filed a lawsuit against Defendant Sizzling Platter, LLC (\"Defendant\") on behalf of themselves and a class of allegedly similarly situated applicants. You give up any right to sue Defendant, and certain parties related to Defendant, about the claims that have been or could have been asserted based on the facts alleged in this Lawsuit.",
@@ -4421,7 +4914,8 @@
     "final": "https://sizzlingplattersettlement.com/",
     "at": 1794225136665,
     "checked_at": "2026-11-09T11:52:16.665Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "northeast-grocery-401k-plans",
@@ -4441,6 +4935,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://northeastgrocery401ksettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#northeast-grocery-401k-plans",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Northeast Grocery violated employment or job-application laws (for example, unpaid wages, missing pay-range disclosures in Washington job postings, or benefits-notice rules).",
@@ -4473,7 +4968,8 @@
     "final": "https://northeastgrocery401ksettlement.com/",
     "at": 1794225136818,
     "checked_at": "2026-11-09T11:52:16.818Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "mental-health-association-data-breach",
@@ -4497,6 +4993,7 @@
    },
    "proof": "No",
    "claim_url": "https://mhadatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#mental-health-association-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Mental Health Association failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Mental Health Association typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4535,7 +5032,8 @@
     "final": "https://mhadatasettlement.com/",
     "at": 1794225136632,
     "checked_at": "2026-11-09T11:52:16.632Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "mortgage-investors-group-data-breach",
@@ -4559,6 +5057,7 @@
    },
    "proof": "No",
    "claim_url": "https://migdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#mortgage-investors-group-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Mortgage Investors Group failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Mortgage Investors Group typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4597,7 +5096,8 @@
     "final": "https://migdatasettlement.com/",
     "at": 1794225136863,
     "checked_at": "2026-11-09T11:52:16.863Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "carter-federal-credit-union-data-breach",
@@ -4621,6 +5121,7 @@
    },
    "proof": "No",
    "claim_url": "https://ccudatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#carter-federal-credit-union-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Carter Federal Credit Union failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Carter Federal Credit Union typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -4659,7 +5160,8 @@
     "final": "https://ccudatasettlement.com/",
     "at": 1794225136663,
     "checked_at": "2026-11-09T11:52:16.663Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "hearthside-food-solutions-labor-laws-illinois",
@@ -4681,6 +5183,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.hearthsidefssettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#hearthside-food-solutions-labor-laws-illinois",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Hearthside Food Solutions violated employment or job-application laws (for example, unpaid wages, missing pay-range disclosures in Washington job postings, or benefits-notice rules).",
@@ -4718,7 +5221,8 @@
     "final": "https://www.hearthsidefssettlement.com/",
     "at": 1794225136636,
     "checked_at": "2026-11-09T11:52:16.636Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "charlotte-motor-speedway-landfill",
@@ -4738,6 +5242,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://lsclassaction.com/settlements/charlotte-motor-speedway-landfill/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#charlotte-motor-speedway-landfill",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleged emission of noxious odors from Landfill operations have interfered with residents' ability to use and enjoy their homes.",
@@ -4774,7 +5279,8 @@
     "final": "https://lsclassaction.com/settlements/charlotte-motor-speedway-landfill/",
     "at": 1794225137563,
     "checked_at": "2026-11-09T11:52:17.563Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "schenker-background-checks",
@@ -4794,6 +5300,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://epoasettlementsinc.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#schenker-background-checks",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff in this class action, Eric Wickham (\"Plaintiff\") alleges that Defendant acquired consumer, investigative consumer, and/or consumer credit reports to conduct background checks on Plaintiff and other prospective current and former applicants for employment purposes without providing proper disclosures and obtaining proper authorization in violation of the Fair Credit Reporting Act (\"FCRA\"), along with similar state law claims under the California Investigative Consumer Reporting Agencies Act (\"ICRAA\") and the California Consumer Credit Reporting Agencies Act (\"CCRAA\"). Your Legal Rights and Options in this Settlement Do Nothing By doing nothing, you will receive a share of the Settlement proceeds, and you will give up any rights to sue Defendant and Released Parties separately regarding all claims and causes of action of whatever kind or nature that are alleged, related to or that reasonably could have arisen out of the same facts alleged in this class action.",
@@ -4826,7 +5333,8 @@
     "final": "https://epoasettlementsinc.com/",
     "at": 1794225136634,
     "checked_at": "2026-11-09T11:52:16.634Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "menasha-packaging-company-wage-and-hour",
@@ -4848,6 +5356,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://menashaclassactionsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#menasha-packaging-company-wage-and-hour",
    "source_name": "ClassAction.org open settlements list",
    "why": "Menasha Packaging, LLC, et al. for alleged wage and hour violations and alleged failure to provide adequate physical conditions and/or facilities, including but not limited to adequate seating, restrooms and temperatures.",
@@ -4880,7 +5389,8 @@
     "final": "https://menashaclassactionsettlement.com/",
     "at": 1794225136606,
     "checked_at": "2026-11-09T11:52:16.606Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "lavista-walk-apartment-fire",
@@ -4900,6 +5410,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://lavistafiresettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#lavista-walk-apartment-fire",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit claims the Defendants are responsible for the Fire and resulting losses.",
@@ -4936,7 +5447,8 @@
     "final": "https://lavistafiresettlement.com/",
     "at": 1794225136603,
     "checked_at": "2026-11-09T11:52:16.603Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "sela-realty-investments-florida",
@@ -4958,6 +5470,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.selasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#sela-realty-investments-florida",
    "source_name": "ClassAction.org open settlements list",
    "why": "Residents allege SELA Realty Investments caused them harm or losses connected to their homes or property.",
@@ -4989,7 +5502,8 @@
     "final": "https://www.selasettlement.com/",
     "at": 1794225136734,
     "checked_at": "2026-11-09T11:52:16.734Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "wiz-job-postings-washington",
@@ -5011,6 +5525,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://epoasettlementwi.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#wiz-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendant's job postings for open positions in Washington did not disclose the wage scale or salary range and/or general description of benefits being offered in violation of Washington law.",
@@ -5043,7 +5558,8 @@
     "final": "https://epoasettlementwi.com/",
     "at": 1794225136549,
     "checked_at": "2026-11-09T11:52:16.549Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "emerald-city-pizza-job-postings-washington",
@@ -5065,6 +5581,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://epoasettlementecp.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#emerald-city-pizza-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Emerald City Pizza violated employment or job-application laws (for example, unpaid wages, missing pay-range disclosures in Washington job postings, or benefits-notice rules).",
@@ -5097,7 +5614,8 @@
     "final": "https://epoasettlementecp.com/",
     "at": 1794225136546,
     "checked_at": "2026-11-09T11:52:16.546Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "vasindas-around-the-clock-care-data-breach",
@@ -5121,6 +5639,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.vasindasdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#vasindas-around-the-clock-care-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Vasindas' Around The Clock Care failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Vasindas' Around The Clock Care typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -5159,7 +5678,8 @@
     "final": "https://www.vasindasdatasettlement.com/",
     "at": 1794225136782,
     "checked_at": "2026-11-09T11:52:16.782Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "lily-transportation-job-postings-washington",
@@ -5185,6 +5705,7 @@
    },
    "proof": "No",
    "claim_url": "https://epoasettlementlt.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#lily-transportation-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs claimed in the lawsuit that Defendants' job postings for open positions in Washington did not disclose the wage scale or salary range being offered. If you wish to attend the hearing remotely, you may do so by using the following link: Zoom link: https://zoom.us/join Meeting ID: 929 7685 9522 Passcode: 921043 Do Nothing If you do nothing, you will remain in the Settlement Class, but you will forfeit the opportunity to receive any compensation and give up any right to sue Defendants and certain parties related to Defendants, about the claims that have been or could have been asserted based on the facts alleged in this Lawsuit.",
@@ -5217,7 +5738,8 @@
     "final": "https://epoasettlementlt.com/",
     "at": 1794225136583,
     "checked_at": "2026-11-09T11:52:16.583Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "city-of-raleigh-water-sewer-fees",
@@ -5237,6 +5759,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://raleighcffsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#city-of-raleigh-water-sewer-fees",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges City of Raleigh charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -5268,7 +5791,8 @@
     "final": "https://raleighcffsettlement.com/",
     "at": 1794225136653,
     "checked_at": "2026-11-09T11:52:16.653Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "la-jolla-group-data-breach",
@@ -5292,6 +5816,7 @@
    },
    "proof": "No",
    "claim_url": "https://ljgdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#la-jolla-group-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "A Settlement has been reached in a class action lawsuit filed against La Jolla Group, Inc. (\"La Jolla Group\" or \"Defendant\"), for allegedly failing to properly secure and safeguard current and former employees' personal information, which was allegedly posted on the Dark Web as a result of a cybersecurity incident in or around November 2023 (\"Cybersecurity Incident\").",
@@ -5330,7 +5855,8 @@
     "final": "https://ljgdatasettlement.com/",
     "at": 1794225136721,
     "checked_at": "2026-11-09T11:52:16.721Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "kia-optima-sportage-window-regulators",
@@ -5350,6 +5876,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://kiawindowregulatorsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#kia-optima-sportage-window-regulators",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Kia vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -5387,7 +5914,8 @@
     "final": "https://kiawindowregulatorsettlement.com/",
     "at": 1794225136638,
     "checked_at": "2026-11-09T11:52:16.638Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "laboratory-corporation-of-america-data-privacy",
@@ -5410,6 +5938,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://www.laboratorycorporationwebsitesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#laboratory-corporation-of-america-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Laboratory Corporation of America shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Laboratory Corporation of America denies wrongdoing.",
@@ -5441,7 +5970,8 @@
     "final": "https://www.laboratorycorporationwebsitesettlement.com/",
     "at": 1794225136606,
     "checked_at": "2026-11-09T11:52:16.606Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "fastbucks-loans",
@@ -5461,6 +5991,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.fastbucksnmrestitution.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#fastbucks-loans",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges FastBucks Loans charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -5492,7 +6023,8 @@
     "final": "https://www.fastbucksnmrestitution.com/",
     "at": 1794225136501,
     "checked_at": "2026-11-09T11:52:16.501Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "festival-fun-parks-raging-waters-ticket-prices",
@@ -5512,6 +6044,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.ragingwaterssettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#festival-fun-parks-raging-waters-ticket-prices",
    "source_name": "ClassAction.org open settlements list",
    "why": "Per the Settlement Agreement , by submitting a Claim Form or doing nothing, you release \"all claims and causes of action that were alleged in the operative complaint, or which arise from the same facts alleged in the operative complaint in the Action\" against Defendant.",
@@ -5543,63 +6076,8 @@
     "final": "https://www.ragingwaterssettlement.com/",
     "at": 1794225136826,
     "checked_at": "2026-11-09T11:52:16.826Z"
-   }
-  },
-  {
-   "id": "twitter-acquisition-securities",
-   "name": "Twitter Acquisition - Securities Settlement",
-   "defendant": "Twitter Acquisition",
-   "country": "US",
-   "region": {
-    "states": [],
-    "note": "United States (nationwide)"
    },
-   "category": "securities",
-   "category_label": "Investments",
-   "class_definition": "If you sold the publicly traded stock or call options, or purchased the put options, of Twitter, Inc. between May 13, 2022 and October 4, 2022, you may be included in this settlement.",
-   "deadline": "2026-11-24",
-   "deadline_text": null,
-   "payout": "Varies",
-   "payout_range": null,
-   "proof": "Yes",
-   "claim_url": "https://twitteracquisitionlitigation.com/",
-   "source": "https://www.classaction.org/settlements#twitter-acquisition-securities",
-   "source_name": "ClassAction.org open settlements list",
-   "why": "Investors allege Twitter Acquisition or related parties made misleading statements or charged improper fees that cost investors money.",
-   "why_source": "general background for this case type",
-   "questions": [
-    {
-     "id": "core",
-     "kind": "req",
-     "q": "Is this true for you? You sold the publicly traded stock or call options, or purchased the put options, of Twitter, Inc. between May 13, 2022 and October 4, 2022."
-    },
-    {
-     "id": "us",
-     "kind": "req",
-     "q": "Did this happen in the United States?"
-    },
-    {
-     "id": "proof",
-     "kind": "info",
-     "q": "Do you have proof (receipts, statements, records) for this?"
-    }
-   ],
-   "questions_source": "auto-generated from class definition",
-   "docs": [
-    "Brokerage statements / trade confirmations"
-   ],
-   "tags": [
-    "twitter acquisition"
-   ],
-   "featured": false,
-   "url_check": {
-    "status": 403,
-    "ok": true,
-    "note": "live (bot-protected; opens in a normal browser)",
-    "final": "https://twitteracquisitionlitigation.com/",
-    "at": 1794225136527,
-    "checked_at": "2026-11-09T11:52:16.527Z"
-   }
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "lake-compounce-ticket-fees",
@@ -5619,6 +6097,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://lakecompounceticketfeesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#lake-compounce-ticket-fees",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Lake Compounce charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -5650,7 +6129,8 @@
     "final": "https://lakecompounceticketfeesettlement.com/",
     "at": 1794225136550,
     "checked_at": "2026-11-09T11:52:16.550Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "laboratory-services-cooperative-data-breach",
@@ -5674,6 +6154,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.lscdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#laboratory-services-cooperative-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Laboratory Services Cooperative failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Laboratory Services Cooperative typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -5712,7 +6193,8 @@
     "final": "https://www.lscdatasettlement.com/",
     "at": 1794225136577,
     "checked_at": "2026-11-09T11:52:16.577Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "venetian-las-vegas-data-privacy-california",
@@ -5738,6 +6220,7 @@
    },
    "proof": "No",
    "claim_url": "https://venetianlasvegassettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#venetian-las-vegas-data-privacy-california",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Venetian Las Vegas shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Venetian Las Vegas denies wrongdoing.",
@@ -5769,7 +6252,8 @@
     "final": "https://venetianlasvegassettlement.com/",
     "at": 1794225136562,
     "checked_at": "2026-11-09T11:52:16.562Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "skin360-biometric-privacy-illinois",
@@ -5791,6 +6275,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.skin360bipasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#skin360-biometric-privacy-illinois",
    "source_name": "ClassAction.org open settlements list",
    "why": "Submit a Claim Settlement Information A proposed Settlement has been reached in a class action lawsuit in which Plaintiffs allege that Defendant Johnson & Johnson Consumer Inc., now known as Kenvue Brands LLC (\"Defendant\" or \"JJCI\"), violated Illinois' Biometric Information Privacy Act, 740 ILCS 14/1 et seq. (\"BIPA\").",
@@ -5822,7 +6307,8 @@
     "final": "https://www.skin360bipasettlement.com/",
     "at": 1794225136512,
     "checked_at": "2026-11-09T11:52:16.512Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "wellnow-urgent-care-wage-and-hour",
@@ -5846,6 +6332,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://searswellnowsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#wellnow-urgent-care-wage-and-hour",
    "source_name": "ClassAction.org open settlements list",
    "why": "Defendant denies all the claims asserted in the Class Action Litigation, denies any and all liability or wrongdoing of any kind associated with any of the facts or claims alleged in the Class Action Litigation, and makes no concessions or admissions of wrongdoing or liability of any kind whatsoever. Nothing in the Settlement is intended or will be construed as an admission by Defendant that the Named Plaintiffs' or any of the class claims alleged in the Class Action Litigation have merit or that they have any liability to the Class Members on those claims.",
@@ -5878,7 +6365,8 @@
     "final": "https://searswellnowsettlement.com/",
     "at": 1794225136458,
     "checked_at": "2026-11-09T11:52:16.458Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "fujifilm-diosynth-biotechnologies-data-breach",
@@ -5902,6 +6390,7 @@
    },
    "proof": "No",
    "claim_url": "https://flbdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#fujifilm-diosynth-biotechnologies-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Keep your right to file your own lawsuit against the Released Parties about the Released Claims that are released by the Settlement in this lawsuit.",
@@ -5940,7 +6429,8 @@
     "final": "https://flbdatasettlement.com/",
     "at": 1794225136495,
     "checked_at": "2026-11-09T11:52:16.495Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "cpap-medical-supplies-and-services-data-breach",
@@ -5964,6 +6454,7 @@
    },
    "proof": "No",
    "claim_url": "https://cpapdataincidentsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#cpap-medical-supplies-and-services-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege CPAP Medical Supplies and Services failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. CPAP Medical Supplies and Services typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6003,7 +6494,8 @@
     "final": "https://cpapdataincidentsettlement.com/",
     "at": 1794225136676,
     "checked_at": "2026-11-09T11:52:16.676Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "nyc-department-of-correction-strip-searches",
@@ -6023,6 +6515,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.nystripsearchsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#nyc-department-of-correction-strip-searches",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges NYC Department of Correction violated people's rights through its policies or practices.",
@@ -6054,7 +6547,8 @@
     "final": "https://www.nystripsearchsettlement.com/",
     "at": 1794225136480,
     "checked_at": "2026-11-09T11:52:16.480Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "bank-of-america-unused-vacation",
@@ -6074,6 +6568,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://unusedvacationsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#bank-of-america-unused-vacation",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Bank of America violated employment or job-application laws (for example, unpaid wages, missing pay-range disclosures in Washington job postings, or benefits-notice rules).",
@@ -6106,7 +6601,8 @@
     "final": "https://unusedvacationsettlement.com/",
     "at": 1794225136560,
     "checked_at": "2026-11-09T11:52:16.560Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "fontaine-modification-company-employee-wages",
@@ -6126,6 +6622,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://www.fmcsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#fontaine-modification-company-employee-wages",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Fontaine Modification Company violated employment or job-application laws (for example, unpaid wages, missing pay-range disclosures in Washington job postings, or benefits-notice rules).",
@@ -6158,7 +6655,8 @@
     "final": "https://www.fmcsettlement.com/",
     "at": 1794225136689,
     "checked_at": "2026-11-09T11:52:16.689Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "finastra-technology-data-breach",
@@ -6182,6 +6680,7 @@
    },
    "proof": "No",
    "claim_url": "https://finastradatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#finastra-technology-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Finastra Technology failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Finastra Technology typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6220,7 +6719,8 @@
     "final": "https://finastradatasettlement.com/",
     "at": 1794225136468,
     "checked_at": "2026-11-09T11:52:16.468Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "hire-velocity-data-breach",
@@ -6244,6 +6744,7 @@
    },
    "proof": "No",
    "claim_url": "https://hirevelocitysettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#hire-velocity-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Hire Velocity failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Hire Velocity typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6282,7 +6783,8 @@
     "final": "https://hirevelocitysettlement.com/",
     "at": 1794225136365,
     "checked_at": "2026-11-09T11:52:16.365Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "pulsz-social-casino-games",
@@ -6309,6 +6811,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.ysisettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#pulsz-social-casino-games",
    "source_name": "ClassAction.org open settlements list",
    "why": "Buyers allege Pulsz misrepresented its products or prices, or sold products that did not live up to what was advertised.",
@@ -6340,7 +6843,8 @@
     "final": "https://www.ysisettlement.com/",
     "at": 1794225136406,
     "checked_at": "2026-11-09T11:52:16.406Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "guadalupe-credit-union-new-mexico",
@@ -6366,6 +6870,7 @@
    },
    "proof": "Varies",
    "claim_url": "https://www.salasvgcusettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#guadalupe-credit-union-new-mexico",
    "source_name": "ClassAction.org open settlements list",
    "why": "The Plaintiffs, or persons who brought the class action lawsuit in their names, alleged that Guadalupe Credit Union violated the law when they filed lawsuits without being represented by an attorney.",
@@ -6397,7 +6902,8 @@
     "final": "https://www.salasvgcusettlement.com/",
     "at": 1794225136551,
     "checked_at": "2026-11-09T11:52:16.551Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "jacks-family-restaurants-data-breach",
@@ -6421,6 +6927,7 @@
    },
    "proof": "No",
    "claim_url": "https://jacksdatabreachsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#jacks-family-restaurants-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Jack's Family Restaurants failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Jack's Family Restaurants typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6459,7 +6966,8 @@
     "final": "https://jacksdatabreachsettlement.com/",
     "at": 1794225136412,
     "checked_at": "2026-11-09T11:52:16.412Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "geotek-data-breach",
@@ -6483,6 +6991,7 @@
    },
    "proof": "No",
    "claim_url": "https://geotekcyberincident.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#geotek-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege GeoTek failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. GeoTek typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6521,7 +7030,8 @@
     "final": "https://geotekcyberincident.com/",
     "at": 1794225136545,
     "checked_at": "2026-11-09T11:52:16.545Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "holt-group-data-breach",
@@ -6545,6 +7055,7 @@
    },
    "proof": "No",
    "claim_url": "https://holtgroupdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#holt-group-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Holt Group failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Holt Group typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6583,7 +7094,8 @@
     "final": "https://holtgroupdatasettlement.com/",
     "at": 1794225136559,
     "checked_at": "2026-11-09T11:52:16.559Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "public-agency-retirement-services-data-breach",
@@ -6603,6 +7115,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://phaseiidatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#public-agency-retirement-services-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Public Agency Retirement Services failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Public Agency Retirement Services typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6641,7 +7154,8 @@
     "final": "https://phaseiidatasettlement.com/",
     "at": 1794225136356,
     "checked_at": "2026-11-09T11:52:16.356Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "steel-warehouse-company-data-breach",
@@ -6665,6 +7179,7 @@
    },
    "proof": "No",
    "claim_url": "https://steelwarehousedatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#steel-warehouse-company-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Steel Warehouse Company failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Steel Warehouse Company typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6703,7 +7218,8 @@
     "final": "https://steelwarehousedatasettlement.com/",
     "at": 1794225136370,
     "checked_at": "2026-11-09T11:52:16.370Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "safe-fleet-holdings-data-breach",
@@ -6727,6 +7243,7 @@
    },
    "proof": "No",
    "claim_url": "https://safefleetdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#safe-fleet-holdings-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Safe Fleet Holdings failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Safe Fleet Holdings typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6765,7 +7282,8 @@
     "final": "https://safefleetdatasettlement.com/",
     "at": 1794225136234,
     "checked_at": "2026-11-09T11:52:16.234Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "starbucks-welfare-benefits-plan",
@@ -6785,6 +7303,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.cobranoticeclassaction.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#starbucks-welfare-benefits-plan",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff and Defendant are referred to in this notice together as the \"Parties.\" Plaintiff alleges in his lawsuit that Defendant provided him and other putative class members with a COBRA Notice that violated the notice requirements of COBRA. The lawsuit generally alleges Defendant provided Plaintiff and other putative class members with a deficient COBRA Notice.",
@@ -6817,7 +7336,8 @@
     "final": "https://www.cobranoticeclassaction.com/",
     "at": 1794225136418,
     "checked_at": "2026-11-09T11:52:16.418Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "seattle-public-schools-data-breach",
@@ -6841,6 +7361,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.carruthsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#seattle-public-schools-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "There is a Settlement of a lawsuit related to an alleged Data Security Incident.",
@@ -6879,7 +7400,8 @@
     "final": "https://www.carruthsettlement.com/",
     "at": 1794225136310,
     "checked_at": "2026-11-09T11:52:16.310Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "institute-for-human-resources-and-services-data-breach",
@@ -6903,6 +7425,7 @@
    },
    "proof": "No",
    "claim_url": "https://institutehrdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#institute-for-human-resources-and-services-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Institute for Human Resources and Services failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Institute for Human Resources and Services typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -6942,7 +7465,8 @@
     "final": "https://institutehrdatasettlement.com/",
     "at": 1794225136492,
     "checked_at": "2026-11-09T11:52:16.492Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "inotiv-data-breach",
@@ -6966,6 +7490,7 @@
    },
    "proof": "No",
    "claim_url": "https://inotivdatabreachsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#inotiv-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Inotiv failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Inotiv typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -7004,7 +7529,8 @@
     "final": "https://inotivdatabreachsettlement.com/",
     "at": 1794225136293,
     "checked_at": "2026-11-09T11:52:16.293Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "fertility-centers-of-illinois-data-privacy",
@@ -7030,6 +7556,7 @@
    },
    "proof": "No",
    "claim_url": "https://fcionlinesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#fertility-centers-of-illinois-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Fertility Centers of Illinois shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Fertility Centers of Illinois denies wrongdoing.",
@@ -7061,7 +7588,8 @@
     "final": "https://fcionlinesettlement.com/",
     "at": 1794225136229,
     "checked_at": "2026-11-09T11:52:16.229Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "sps-technologies-fire",
@@ -7081,6 +7609,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.sps-settlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#sps-technologies-fire",
    "source_name": "ClassAction.org open settlements list",
    "why": "Residents allege SPS Technologies Fire caused them harm or losses connected to their homes or property.",
@@ -7117,7 +7646,8 @@
     "final": "https://www.sps-settlement.com/",
     "at": 1794225136226,
     "checked_at": "2026-11-09T11:52:16.226Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "long-beach-community-college-district-faculty-wages",
@@ -7137,6 +7667,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://robertslbccdclassaction.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#long-beach-community-college-district-faculty-wages",
    "source_name": "ClassAction.org open settlements list",
    "why": "If you received notice, you may be eligible to receive money from the Settlement of a class action lawsuit (\"Action\") against Long Beach Community College District (\"District\") for alleged minimum wage violations.",
@@ -7169,7 +7700,8 @@
     "final": "https://robertslbccdclassaction.com/",
     "at": 1794225136424,
     "checked_at": "2026-11-09T11:52:16.424Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "its-technologies-and-logistics-biometric-privacy-illinois",
@@ -7195,6 +7727,7 @@
    },
    "proof": "No",
    "claim_url": "https://itsbipasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#its-technologies-and-logistics-biometric-privacy-illinois",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges ITS Technologies and Logistics shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. ITS Technologies and Logistics denies wrongdoing.",
@@ -7227,7 +7760,8 @@
     "final": "https://itsbipasettlement.com/",
     "at": 1794225136157,
     "checked_at": "2026-11-09T11:52:16.157Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "belcan-engineering-job-postings-washington",
@@ -7249,6 +7783,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://epoasettlementbeg.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#belcan-engineering-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendant's job postings for open positions in Washington did not disclose the wage scale or salary range being offered. To attend remotely via Zoom, you may use the following link: Zoom Link: https://kingcounty.zoom.us/j/83824578207 Meeting ID: 838 2457 8207 Do Nothing If you do nothing, you will remain in the Settlement Class, but you will forfeit the opportunity to receive any compensation and give up any right to sue Defendants and certain parties related to Defendants, about the claims that have been or could have been asserted based on the facts alleged in this Lawsuit.",
@@ -7281,7 +7816,8 @@
     "final": "https://epoasettlementbeg.com/",
     "at": 1794225136402,
     "checked_at": "2026-11-09T11:52:16.402Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "assa-abloy-entrance-systems-job-postings-washington",
@@ -7303,6 +7839,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://epoasettlementaa.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#assa-abloy-entrance-systems-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendants' job postings for open positions in Washington did not disclose the wage scale or salary range being offered and/or a general description of all of the benefits and other compensation being offered for the position. To attend remotely via Zoom, you may use the following link: Zoom Link: https://kingcounty.zoom.us/j/83715469589 Do Nothing If you do nothing, you will remain in the Settlement Class, but you will forfeit the opportunity to receive an individual payment and give up any right to sue Defendants, and certain parties related to Defendants, about the claims that have been or could have been asserted based on the facts alleged in this Lawsuit.",
@@ -7335,7 +7872,8 @@
     "final": "https://epoasettlementaa.com/",
     "at": 1794225136412,
     "checked_at": "2026-11-09T11:52:16.412Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "wayne-memorial-hospital-data-breach",
@@ -7359,6 +7897,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.wmhdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#wayne-memorial-hospital-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "The Action alleges that Defendant was negligent or otherwise responsible for failing to prevent the Data Incident from occurring. This is the only option that leaves you the potential to file your own lawsuit against Defendant for the claims that are being resolved by the Settlement.",
@@ -7397,7 +7936,8 @@
     "final": "https://www.wmhdatasettlement.com/",
     "at": 1794225136381,
     "checked_at": "2026-11-09T11:52:16.381Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "usc-arcadia-hospital-data-privacy",
@@ -7417,6 +7957,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://uscarcadiahospitalsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#usc-arcadia-hospital-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges USC Arcadia Hospital shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. USC Arcadia Hospital denies wrongdoing.",
@@ -7448,7 +7989,8 @@
     "final": "https://uscarcadiahospitalsettlement.com/",
     "at": 1794225136156,
     "checked_at": "2026-11-09T11:52:16.156Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "nc-adapthealth-medical-supplies",
@@ -7472,6 +8014,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.ncadapthealthsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#nc-adapthealth-medical-supplies",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges that AdaptHealth engaged in improper debt collection practices under North Carolina law. Specifically, the claims allege that AdaptHealth: Allegedly billed consumers for medical equipment they did not receive, rejected, or had returned; and/or Allegedly sent collection letters suggesting possible legal action regarding alleged debts.",
@@ -7503,7 +8046,8 @@
     "final": "https://www.ncadapthealthsettlement.com/",
     "at": 1794225136162,
     "checked_at": "2026-11-09T11:52:16.162Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "baptist-health-data-breach",
@@ -7527,6 +8071,7 @@
    },
    "proof": "No",
    "claim_url": "https://bhsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#baptist-health-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Baptist Health failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Baptist Health typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -7565,7 +8110,8 @@
     "final": "https://bhsettlement.com/",
     "at": 1794225136323,
     "checked_at": "2026-11-09T11:52:16.323Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "suffolk-county-red-light-cameras-new-york",
@@ -7589,6 +8135,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.suffolkredlightsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#suffolk-county-red-light-cameras-new-york",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Suffolk County charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -7620,7 +8167,8 @@
     "final": "https://www.suffolkredlightsettlement.com/",
     "at": 1794225136150,
     "checked_at": "2026-11-09T11:52:16.150Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "brockton-neighborhood-health-center-data-breach",
@@ -7644,6 +8192,7 @@
    },
    "proof": "No",
    "claim_url": "https://bnhdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#brockton-neighborhood-health-center-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Brockton Neighborhood Health Center failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Brockton Neighborhood Health Center typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -7682,7 +8231,8 @@
     "final": "https://bnhdatasettlement.com/",
     "at": 1794225136130,
     "checked_at": "2026-11-09T11:52:16.130Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "stv-incorporated-job-postings-washington",
@@ -7708,6 +8258,7 @@
    },
    "proof": "No",
    "claim_url": "https://epoasettlementstvi.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#stv-incorporated-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "John Milito (\"Plaintiff\" or \"Class Representative\"), filed a lawsuit against STV Incorporated and STV Construction, Inc. (together, \"Defendants,\" and collectively with Plaintiff, the \"Parties\") on behalf of himself and a class of allegedly similarly situated applicants. Plaintiff claimed in the lawsuit that Defendants' job postings for open positions in Washington did not disclose the wage scale or salary range being offered.",
@@ -7740,7 +8291,8 @@
     "final": "https://epoasettlementstvi.com/",
     "at": 1794225136314,
     "checked_at": "2026-11-09T11:52:16.314Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "aetna-life-insurance-lumbar-artificial-disc-replacement",
@@ -7764,6 +8316,7 @@
    },
    "proof": "Yes",
    "claim_url": "https://www.ladrsurgerysettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#aetna-life-insurance-lumbar-artificial-disc-replacement",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Aetna Life Insurance charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -7800,7 +8353,8 @@
     "final": "https://www.ladrsurgerysettlement.com/",
     "at": 1794225136110,
     "checked_at": "2026-11-09T11:52:16.110Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "indegene-unwanted-faxes",
@@ -7824,6 +8378,7 @@
    },
    "proof": "No",
    "claim_url": "https://indegenetcpasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#indegene-unwanted-faxes",
    "source_name": "ClassAction.org open settlements list",
    "why": "Do Nothing If you do nothing, you will remain in the Settlement Class, be bound by any judgment entered by the Court, and any claims you may have against Defendants related to the predicate facts alleged in this lawsuit, including Defendants' faxes sent on or about February 7, 2020 will be deemed released, but you will receive no payment. © 2026 Progressive v Indegene, Inc..",
@@ -7861,7 +8416,8 @@
     "final": "https://indegenetcpasettlement.com/",
     "at": 1794225136211,
     "checked_at": "2026-11-09T11:52:16.211Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "harvard-morgue",
@@ -7881,6 +8437,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://harvardmorguesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#harvard-morgue",
    "source_name": "ClassAction.org open settlements list",
    "why": "The Plaintiffs allege that the Settling Defendants failed to safeguard the donated remains of deceased individuals. According to the lawsuit, this alleged failure allowed others to improperly remove, dismember, and sell some of those remains.",
@@ -7917,7 +8474,8 @@
     "final": "https://harvardmorguesettlement.com/",
     "at": 1794225136301,
     "checked_at": "2026-11-09T11:52:16.301Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "mclean-mortgage-corporation-data-breach",
@@ -7941,6 +8499,7 @@
    },
    "proof": "No",
    "claim_url": "https://mcleandatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#mclean-mortgage-corporation-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege McLean Mortgage Corporation failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. McLean Mortgage Corporation typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -7979,7 +8538,8 @@
     "final": "https://mcleandatasettlement.com/",
     "at": 1794225136073,
     "checked_at": "2026-11-09T11:52:16.073Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "florence-bank-overdraft-fees",
@@ -7999,6 +8559,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://sullivanfeessettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#florence-bank-overdraft-fees",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Florence Bank charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -8030,7 +8591,8 @@
     "final": "https://sullivanfeessettlement.com/",
     "at": 1794225136071,
     "checked_at": "2026-11-09T11:52:16.071Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "quadrant-technologies-job-postings-washington",
@@ -8052,6 +8614,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://epoasettlementqtl.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#quadrant-technologies-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendant's job postings for open positions in Washington did not disclose the wage scale or salary range and/or a general description of benefits and other compensation being offered. To attend remotely via Zoom, you may use the following link: Zoom Link: https://kingcounty.zoom.us/j/85190398101 Do Nothing If you do nothing, you will remain in the Settlement Class, but you will forfeit the opportunity to receive an individual payment and give up any right to sue Defendant, and certain parties related to Defendant, about the claims that have been or could have been asserted based on the facts alleged in this Lawsuit.",
@@ -8084,7 +8647,8 @@
     "final": "https://epoasettlementqtl.com/",
     "at": 1794225136203,
     "checked_at": "2026-11-09T11:52:16.203Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "charleston-area-medical-center-hernia-surgery",
@@ -8104,6 +8668,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://camcbariatricsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#charleston-area-medical-center-hernia-surgery",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Charleston Area Medical Center overcharged or harmed patients or customers in connection with medical services or products.",
@@ -8140,7 +8705,8 @@
     "final": "https://camcbariatricsettlement.com/",
     "at": 1794225136161,
     "checked_at": "2026-11-09T11:52:16.161Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "zumba-fitness-data-privacy",
@@ -8164,6 +8730,7 @@
    },
    "proof": "Varies",
    "claim_url": "https://zumbavppasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#zumba-fitness-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "In the lawsuit, the Plaintiffs (or Class Representatives) allege that Zumba violated a federal law called the Video Privacy Protection Act (18 U.S.C. § 2710, et seq.) by purportedly using third-party digital tracking technologies to knowingly transmit certain personally identifiable information (\"PII\") about its customers' purchases to Meta Platforms, Inc. (\"Meta\"), MNTN, Inc. (\"MNTN\"), and Pinterest, Inc. (\"Pinterest\").",
@@ -8195,7 +8762,8 @@
     "final": "https://zumbavppasettlement.com/",
     "at": 1794225136074,
     "checked_at": "2026-11-09T11:52:16.074Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "pandora-ventures-job-postings-washington",
@@ -8217,6 +8785,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://epoasettlementpvl.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#pandora-ventures-job-postings-washington",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiff claimed in the lawsuit that Defendants' job postings for open positions in Washington did not disclose the wage scale or salary range and/or general description of benefits being offered in violation of Washington law.",
@@ -8249,7 +8818,8 @@
     "final": "https://epoasettlementpvl.com/",
     "at": 1794225136072,
     "checked_at": "2026-11-09T11:52:16.072Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "kimco-staffing-data-breach",
@@ -8273,6 +8843,7 @@
    },
    "proof": "No",
    "claim_url": "https://kimcodatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#kimco-staffing-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Kimco Staffing failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Kimco Staffing typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8311,7 +8882,8 @@
     "final": "https://kimcodatasettlement.com/",
     "at": 1794225136028,
     "checked_at": "2026-11-09T11:52:16.028Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "service-spot-parking-reservation-fees",
@@ -8333,6 +8905,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://servicespotsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#service-spot-parking-reservation-fees",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Service Spot charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -8364,7 +8937,8 @@
     "final": "https://servicespotsettlement.com/",
     "at": 1794225136016,
     "checked_at": "2026-11-09T11:52:16.016Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "brandt-equities-data-breach",
@@ -8388,6 +8962,7 @@
    },
    "proof": "No",
    "claim_url": "https://brandtequitiessettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#brandt-equities-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Brandt Equities failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Brandt Equities typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8426,7 +9001,8 @@
     "final": "https://brandtequitiessettlement.com/",
     "at": 1794225136010,
     "checked_at": "2026-11-09T11:52:16.010Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "fairmont-federal-credit-union-data-breach",
@@ -8450,6 +9026,7 @@
    },
    "proof": "No",
    "claim_url": "https://ffcudatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#fairmont-federal-credit-union-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Fairmont Federal Credit Union failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Fairmont Federal Credit Union typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8488,7 +9065,8 @@
     "final": "https://ffcudatasettlement.com/",
     "at": 1794225135954,
     "checked_at": "2026-11-09T11:52:15.954Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "ahs-management-company-wages",
@@ -8508,6 +9086,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://ardentkronoswagesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#ahs-management-company-wages",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges AHS Management Company violated employment or job-application laws (for example, unpaid wages, missing pay-range disclosures in Washington job postings, or benefits-notice rules).",
@@ -8540,7 +9119,8 @@
     "final": "https://ardentkronoswagesettlement.com/",
     "at": 1794225136309,
     "checked_at": "2026-11-09T11:52:16.309Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "the-container-store-massachusetts",
@@ -8566,6 +9146,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.tcssettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#the-container-store-massachusetts",
    "source_name": "ClassAction.org open settlements list",
    "why": "This case alleges that Defendant (\"The Container Store, Inc.\") maintained point of sale devices that were not accessible to blind individuals in violation of the Massachusetts Public Accommodations Act, G.L. c. 272, § 98, the Massachusetts Equal Rights Act, G.L. c. 93, § 103, and the Massachusetts Consumer Protection Law, G.L. c. 93A, § 9.",
@@ -8597,7 +9178,8 @@
     "final": "https://www.tcssettlement.com/",
     "at": 1794225136295,
     "checked_at": "2026-11-09T11:52:16.295Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "etairos-health-data-breach",
@@ -8621,6 +9203,7 @@
    },
    "proof": "No",
    "claim_url": "https://etairoshealthsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#etairos-health-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Etairos Health failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Etairos Health typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8659,7 +9242,8 @@
     "final": "https://etairoshealthsettlement.com/",
     "at": 1794225136059,
     "checked_at": "2026-11-09T11:52:16.059Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "american-renal-management-data-breach",
@@ -8683,6 +9267,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.ircsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#american-renal-management-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege American Renal Management failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. American Renal Management typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8721,7 +9306,8 @@
     "final": "https://www.ircsettlement.com/",
     "at": 1794225135873,
     "checked_at": "2026-11-09T11:52:15.873Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "prime-healthcare-data-privacy",
@@ -8745,6 +9331,7 @@
    },
    "proof": "No",
    "claim_url": "https://phsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#prime-healthcare-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Prime Healthcare shared or collected users' personal information (often through website tracking pixels, cookies or biometric scans) without proper notice or consent, in violation of privacy laws. Prime Healthcare denies wrongdoing.",
@@ -8776,7 +9363,8 @@
     "final": "https://phsettlement.com/",
     "at": 1794225135878,
     "checked_at": "2026-11-09T11:52:15.878Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "benworth-capital-partners-data-breach",
@@ -8800,6 +9388,7 @@
    },
    "proof": "No",
    "claim_url": "https://benworthdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#benworth-capital-partners-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Benworth Capital Partners failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Benworth Capital Partners typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8838,7 +9427,8 @@
     "final": "https://benworthdatasettlement.com/",
     "at": 1794225136087,
     "checked_at": "2026-11-09T11:52:16.087Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "educational-computer-systems-data-breach",
@@ -8862,6 +9452,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.datasettlementecsi.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#educational-computer-systems-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Educational Computer Systems failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Educational Computer Systems typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8900,7 +9491,8 @@
     "final": "https://www.datasettlementecsi.com/",
     "at": 1794225135968,
     "checked_at": "2026-11-09T11:52:15.968Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "hospital-espanol-auxilio-mutuo-de-puerto-rico",
@@ -8926,6 +9518,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.hospitalespanolauxiliosettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#hospital-espanol-auxilio-mutuo-de-puerto-rico",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Hospital Español Auxilio Mutuo de Puerto Rico failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Hospital Español Auxilio Mutuo de Puerto Rico typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -8964,7 +9557,8 @@
     "final": "https://www.hospitalespanolauxiliosettlement.com/",
     "at": 1794225135945,
     "checked_at": "2026-11-09T11:52:15.945Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "viapath-technologies-data-breach",
@@ -8988,6 +9582,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.telmatedatabreachsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#viapath-technologies-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Viapath Technologies failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Viapath Technologies typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9026,7 +9621,8 @@
     "final": "https://www.telmatedatabreachsettlement.com/",
     "at": 1794225135964,
     "checked_at": "2026-11-09T11:52:15.964Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "trc-staffing-services-data-breach",
@@ -9050,6 +9646,7 @@
    },
    "proof": "No",
    "claim_url": "https://trcdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#trc-staffing-services-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege TRC Staffing Services failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. TRC Staffing Services typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9088,7 +9685,8 @@
     "final": "https://trcdatasettlement.com/",
     "at": 1794225135798,
     "checked_at": "2026-11-09T11:52:15.798Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "electronics-for-imaging-data-breach",
@@ -9112,6 +9710,7 @@
    },
    "proof": "No",
    "claim_url": "https://efidatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#electronics-for-imaging-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Electronics for Imaging failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Electronics for Imaging typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9150,7 +9749,8 @@
     "final": "https://efidatasettlement.com/",
     "at": 1794225136011,
     "checked_at": "2026-11-09T11:52:16.011Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "six-flags-fees-california",
@@ -9176,6 +9776,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.knottsgreatamericasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#six-flags-fees-california",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Six Flags charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -9207,7 +9808,8 @@
     "final": "https://www.knottsgreatamericasettlement.com/",
     "at": 1794225135889,
     "checked_at": "2026-11-09T11:52:15.889Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "jefferson-blount-st-clair-mental-health-data-breach",
@@ -9231,6 +9833,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.jbssettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#jefferson-blount-st-clair-mental-health-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Clair Mental Health Authority (\"Defendant\") relating to an alleged cyberattack that occurred on or around November 25, 2025 (the \"Data Security Incident\"). The Action alleges that Defendant was negligent or otherwise responsible for failing to prevent the Data Security Incident from occurring.",
@@ -9269,7 +9872,8 @@
     "final": "https://www.jbssettlement.com/",
     "at": 1794225136026,
     "checked_at": "2026-11-09T11:52:16.026Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "brighthouse-life-insurance-company",
@@ -9289,6 +9893,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://brighthouseinsurancecase.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#brighthouse-life-insurance-company",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Brighthouse Life Insurance Company charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -9320,7 +9925,8 @@
     "final": "https://brighthouseinsurancecase.com/",
     "at": 1794225135806,
     "checked_at": "2026-11-09T11:52:15.806Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "antigo-construction-data-breach",
@@ -9344,6 +9950,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.antigodatabreachsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#antigo-construction-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Antigo Construction failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Antigo Construction typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9382,7 +9989,8 @@
     "final": "https://www.antigodatabreachsettlement.com/",
     "at": 1794225135774,
     "checked_at": "2026-11-09T11:52:15.774Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "coast-dental-services-unwanted-texts",
@@ -9406,6 +10014,7 @@
    },
    "proof": "No",
    "claim_url": "https://cdstcpasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#coast-dental-services-unwanted-texts",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Coast Dental Services sent marketing texts, calls or faxes without the consent required by the Telephone Consumer Protection Act (TCPA) or similar state laws.",
@@ -9443,7 +10052,8 @@
     "final": "https://cdstcpasettlement.com/",
     "at": 1794225135887,
     "checked_at": "2026-11-09T11:52:15.887Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "cbiz-data-breach",
@@ -9467,6 +10077,7 @@
    },
    "proof": "No",
    "claim_url": "https://cbizdatabreachsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#cbiz-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege CBIZ failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. CBIZ typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9505,7 +10116,8 @@
     "final": "https://cbizdatabreachsettlement.com/",
     "at": 1794225135996,
     "checked_at": "2026-11-09T11:52:15.996Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "earn-company-fees",
@@ -9529,6 +10141,7 @@
    },
    "proof": "Varies",
    "claim_url": "https://www.creditexterminatorsclassaction.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#earn-company-fees",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Earn Company charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -9560,7 +10173,8 @@
     "final": "https://www.creditexterminatorsclassaction.com/",
     "at": 1794225135844,
     "checked_at": "2026-11-09T11:52:15.844Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "chimienti-and-associates-data-breach",
@@ -9584,6 +10198,7 @@
    },
    "proof": "No",
    "claim_url": "https://chimientidatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#chimienti-and-associates-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Chimienti & Associates failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Chimienti & Associates typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9623,7 +10238,8 @@
     "final": "https://chimientidatasettlement.com/",
     "at": 1794225135736,
     "checked_at": "2026-11-09T11:52:15.736Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "arizona-labor-force-data-breach",
@@ -9649,6 +10265,7 @@
    },
    "proof": "No",
    "claim_url": "https://azlaborforcesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#arizona-labor-force-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Arizona Labor Force failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Arizona Labor Force typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9687,7 +10304,8 @@
     "final": "https://azlaborforcesettlement.com/",
     "at": 1794225135946,
     "checked_at": "2026-11-09T11:52:15.946Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "covenant-health-data-breach",
@@ -9711,6 +10329,7 @@
    },
    "proof": "No",
    "claim_url": "https://covenanthealthdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#covenant-health-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Covenant Health failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Covenant Health typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9749,7 +10368,8 @@
     "final": "https://covenanthealthdatasettlement.com/",
     "at": 1794225135721,
     "checked_at": "2026-11-09T11:52:15.721Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "healthport-technologies-medical-records",
@@ -9769,6 +10389,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.healthportpitsettlementpa.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#healthport-technologies-medical-records",
    "source_name": "ClassAction.org open settlements list",
    "why": "YOUR LEGAL RIGHTS AND OPTIONS IN THIS SETTLEMENT: FILE A CLAIM If you submit a Proof of Claim as explained in this Notice and that Proof of Claim is approved by the settlement administrator, you can recover 67.5% of the amounts you allegedly overpaid to HealthPort (now Datavant), as determined by the Settlement Administrator, for medical record requests made in connection with a patient's application for life and/or health insurance from December 17, 2009 through July 23, 2026.",
@@ -9800,58 +10421,8 @@
     "final": "https://www.healthportpitsettlementpa.com/",
     "at": 1794225135797,
     "checked_at": "2026-11-09T11:52:15.797Z"
-   }
-  },
-  {
-   "id": "john-deere-large-agricultural-equipment-repairs",
-   "name": "John Deere - Large Agricultural Equipment Repairs Settlement",
-   "defendant": "John Deere",
-   "country": "US",
-   "region": {
-    "states": [],
-    "note": "United States (nationwide)"
    },
-   "category": "consumer_product",
-   "category_label": "Products & shopping",
-   "class_definition": "You may be covered by this settlement if you paid for repair services for John Deere large agricultural equipment from John Deere or a Deere authorized dealer between January 10, 2018 and May 18, 2026.",
-   "deadline": "2026-12-31",
-   "deadline_text": null,
-   "payout": "Varies",
-   "payout_range": null,
-   "proof": "No",
-   "claim_url": "https://www.deererepairsettlement.com/",
-   "source": "https://www.classaction.org/settlements#john-deere-large-agricultural-equipment-repairs",
-   "source_name": "ClassAction.org open settlements list",
-   "why": "Settlement Overview Plaintiffs allege that defendant Deere & Company, doing business as John Deere, engaged in an anticompetitive scheme to withhold from customers and independent repair providers (\"IRPs\") certain repair tools for Deere-manufactured Large Agricultural Equipment, that depend for their functioning, in part, on electronic control units, and that, as a result, customers were required to use Deere authorized Dealers for the diagnosis, maintenance, and repair of their equipment (\"Repair Services\") and paid more than they should have.",
-   "why_source": "official site",
-   "questions": [
-    {
-     "id": "core",
-     "kind": "req",
-     "q": "Is this true for you? You paid for repair services for John Deere large agricultural equipment from John Deere or a Deere authorized dealer between January 10, 2018 and May 18, 2026."
-    },
-    {
-     "id": "us",
-     "kind": "req",
-     "q": "Did this happen in the United States?"
-    }
-   ],
-   "questions_source": "auto-generated from class definition",
-   "docs": [
-    "No proof required; basic contact details"
-   ],
-   "tags": [
-    "john deere"
-   ],
-   "featured": false,
-   "url_check": {
-    "status": 200,
-    "ok": true,
-    "note": "resolves",
-    "final": "https://www.deererepairsettlement.com/",
-    "at": 1794225135700,
-    "checked_at": "2026-11-09T11:52:15.700Z"
-   }
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "roseland-community-hospital-association-data-breach",
@@ -9875,6 +10446,7 @@
    },
    "proof": "No",
    "claim_url": "https://roselandsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#roseland-community-hospital-association-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Roseland Community Hospital Association failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Roseland Community Hospital Association typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9913,7 +10485,8 @@
     "final": "https://roselandsettlement.com/",
     "at": 1794225135700,
     "checked_at": "2026-11-09T11:52:15.700Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "bauer-built-data-breach",
@@ -9937,6 +10510,7 @@
    },
    "proof": "No",
    "claim_url": "https://bauersecurityincident.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#bauer-built-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Bauer Built failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Bauer Built typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -9975,7 +10549,8 @@
     "final": "https://bauersecurityincident.com/",
     "at": 1794225135899,
     "checked_at": "2026-11-09T11:52:15.899Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "american-medical-collection-agency-data-breach",
@@ -9999,6 +10574,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.amcadatabreachsettlement-saca.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#american-medical-collection-agency-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege American Medical Collection Agency failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. American Medical Collection Agency typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10037,7 +10613,8 @@
     "final": "https://www.amcadatabreachsettlement-saca.com/",
     "at": 1794225135684,
     "checked_at": "2026-11-09T11:52:15.684Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "seatgeek-ticket-fees-nevada",
@@ -10059,6 +10636,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://seatgeekticketfeessettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#seatgeek-ticket-fees-nevada",
    "source_name": "ClassAction.org open settlements list",
    "why": "The case alleges that SeatGeek did not disclose the total cost of electronic tickets to events in Nevada, inclusive of fees, prior to those tickets being selected for purchase, in alleged violation of the Nevada Ticket Reseller Law, Nevada Revised Statutes § 598.397 et seq. , and the Nevada Deceptive Trade Practices Act, Nevada Revised Statutes § 598.0915.",
@@ -10090,7 +10668,8 @@
     "final": "https://seatgeekticketfeessettlement.com/",
     "at": 1794225135674,
     "checked_at": "2026-11-09T11:52:15.674Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "arcare-data-breach",
@@ -10114,6 +10693,7 @@
    },
    "proof": "No",
    "claim_url": "https://arcaredatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#arcare-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Arcare failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Arcare typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10152,7 +10732,8 @@
     "final": "https://arcaredatasettlement.com/",
     "at": 1794225135683,
     "checked_at": "2026-11-09T11:52:15.683Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "washington-gastroenterology-data-breach",
@@ -10176,6 +10757,7 @@
    },
    "proof": "No",
    "claim_url": "https://wagastrodataincidentsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#washington-gastroenterology-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Washington Gastroenterology failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Washington Gastroenterology typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10214,7 +10796,8 @@
     "final": "https://wagastrodataincidentsettlement.com/",
     "at": 1794225135693,
     "checked_at": "2026-11-09T11:52:15.693Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "costa-sunglasses-florida",
@@ -10236,6 +10819,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://costasunglasslitigation.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#costa-sunglasses-florida",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Costa Sunglasses charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -10267,7 +10851,8 @@
     "final": "https://costasunglasslitigation.com/",
     "at": 1794225135641,
     "checked_at": "2026-11-09T11:52:15.641Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "hampton-regional-medical-center-data-breach",
@@ -10291,6 +10876,7 @@
    },
    "proof": "No",
    "claim_url": "https://hrmcdatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#hampton-regional-medical-center-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Hampton Regional Medical Center failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Hampton Regional Medical Center typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10329,7 +10915,8 @@
     "final": "https://hrmcdatasettlement.com/",
     "at": 1794225135668,
     "checked_at": "2026-11-09T11:52:15.668Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "blue-ridge-rural-water-company-data-breach",
@@ -10353,6 +10940,7 @@
    },
    "proof": "No",
    "claim_url": "https://blueridgedatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#blue-ridge-rural-water-company-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Blue Ridge Rural Water Company failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Blue Ridge Rural Water Company typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10391,7 +10979,8 @@
     "final": "https://blueridgedatasettlement.com/",
     "at": 1794225135633,
     "checked_at": "2026-11-09T11:52:15.633Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "ford-transit-trail",
@@ -10415,6 +11004,7 @@
    },
    "proof": "Yes",
    "claim_url": "https://www.fordtransittrailsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#ford-transit-trail",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Ford Transit Trail vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -10452,7 +11042,8 @@
     "final": "https://www.fordtransittrailsettlement.com/",
     "at": 1794225135628,
     "checked_at": "2026-11-09T11:52:15.628Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "vida-y-salud-health-systems-data-breach",
@@ -10476,6 +11067,7 @@
    },
    "proof": "No",
    "claim_url": "https://vsidatasettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#vida-y-salud-health-systems-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Vida Y Salud-Health Systems failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Vida Y Salud-Health Systems typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10514,7 +11106,8 @@
     "final": "https://vsidatasettlement.com/",
     "at": 1794225135830,
     "checked_at": "2026-11-09T11:52:15.830Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "davita-data-breach",
@@ -10538,6 +11131,7 @@
    },
    "proof": "No",
    "claim_url": "https://dvacyberattacksettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#davita-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege DaVita failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. DaVita typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10576,7 +11170,8 @@
     "final": "https://dvacyberattacksettlement.com/",
     "at": 1794225135629,
     "checked_at": "2026-11-09T11:52:15.629Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "kisco-senior-living-data-breach",
@@ -10600,6 +11195,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.kiscosettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#kisco-senior-living-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "The Lawsuit asserts claims against Defendant related to a data incident that occurred on or around June 1, 2023, to June 6, 2023 (the \"Data Incident\").",
@@ -10638,7 +11234,8 @@
     "final": "https://www.kiscosettlement.com/",
     "at": 1794225135958,
     "checked_at": "2026-11-09T11:52:15.958Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "dental-intelligence-data-privacy",
@@ -10658,6 +11255,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://disettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#dental-intelligence-data-privacy",
    "source_name": "ClassAction.org open settlements list",
    "why": "Class Action Settlement If you are in the United States and used the LocalMed Portal to schedule, modify, or re-schedule an appointment between March 2022 and June 2025, and any information you shared was allegedly disclosed or transmitted to Google or any other unauthorized third party, you may be entitled to a cash payment from a settlement. A settlement has been reached in a class action lawsuit against Dental Intelligence, Inc. (\"Defendant\") arising out of alleged disclosures of information individuals shared when they used the LocalMed Portal to schedule, modify, or re-schedule an appointment between March 2022 and June 2025.",
@@ -10689,7 +11287,8 @@
     "final": "https://disettlement.com/",
     "at": 1794225135596,
     "checked_at": "2026-11-09T11:52:15.596Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "academy-mortgage-corporation-data-breach",
@@ -10713,6 +11312,7 @@
    },
    "proof": "No",
    "claim_url": "https://academymortgagesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#academy-mortgage-corporation-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege Academy Mortgage Corporation failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. Academy Mortgage Corporation typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10751,7 +11351,8 @@
     "final": "https://academymortgagesettlement.com/",
     "at": 1794225135564,
     "checked_at": "2026-11-09T11:52:15.564Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "the-merchant-of-tennis-data-breach",
@@ -10775,6 +11376,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.usmsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#the-merchant-of-tennis-data-breach",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege The Merchant of Tennis failed to adequately protect the personal information it held, leading to a data breach that exposed people's data and put them at risk of identity theft. The Merchant of Tennis typically denies wrongdoing; the settlement pays for lost time, out-of-pocket losses and sometimes a flat cash amount.",
@@ -10813,7 +11415,8 @@
     "final": "https://www.usmsettlement.com/",
     "at": 1794225135740,
     "checked_at": "2026-11-09T11:52:15.740Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "allstate-insurance-structural-damage",
@@ -10835,6 +11438,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.hernandezdepreciationsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#allstate-insurance-structural-damage",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Allstate Insurance charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -10871,7 +11475,8 @@
     "final": "https://www.hernandezdepreciationsettlement.com/",
     "at": 1794225135575,
     "checked_at": "2026-11-09T11:52:15.575Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "progressive-direct-total-loss-payments-colorado",
@@ -10893,6 +11498,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://cototallossclaim.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#progressive-direct-total-loss-payments-colorado",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Progressive Direct vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -10930,7 +11536,8 @@
     "final": "https://cototallossclaim.com/",
     "at": 1794225135553,
     "checked_at": "2026-11-09T11:52:15.553Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "ncaa-tennis-prize-money",
@@ -10950,6 +11557,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.ncaatennisprizemoneyclassaction.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#ncaa-tennis-prize-money",
    "source_name": "ClassAction.org open settlements list",
    "why": "Plaintiffs allege that certain NCAA rules restricting student-athletes from accepting prize money in non-NCAA tennis competitions violate federal antitrust laws by limiting compensation for athletic performance.",
@@ -10986,7 +11594,8 @@
     "final": "https://www.ncaatennisprizemoneyclassaction.com/",
     "at": 1794225135734,
     "checked_at": "2026-11-09T11:52:15.734Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "adams-toyota-enviroguard",
@@ -11006,6 +11615,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://adamsautosettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#adams-toyota-enviroguard",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Adams Toyota vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -11038,7 +11648,8 @@
     "final": "https://adamsautosettlement.com/",
     "at": 1794225135535,
     "checked_at": "2026-11-09T11:52:15.535Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "vanilla-prepaid-gift-cards-california",
@@ -11060,6 +11671,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.cagiftcardsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#vanilla-prepaid-gift-cards-california",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Vanilla Prepaid Gift Cards charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -11091,7 +11703,8 @@
     "final": "https://www.cagiftcardsettlement.com/",
     "at": 1794225135504,
     "checked_at": "2026-11-09T11:52:15.504Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "natera-testing",
@@ -11111,6 +11724,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://geneticscreeningtestsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#natera-testing",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Natera Testing overcharged or harmed patients or customers in connection with medical services or products.",
@@ -11142,7 +11756,8 @@
     "final": "https://geneticscreeningtestsettlement.com/",
     "at": 1794225135468,
     "checked_at": "2026-11-09T11:52:15.468Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "breckenridge-duloxetine",
@@ -11162,6 +11777,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.breckenridgefuturerefundprogram.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#breckenridge-duloxetine",
    "source_name": "ClassAction.org open settlements list",
    "why": "Buyers allege Breckenridge misrepresented its products or prices, or sold products that did not live up to what was advertised.",
@@ -11198,7 +11814,8 @@
     "final": "https://www.breckenridgefuturerefundprogram.com/",
     "at": 1794225135476,
     "checked_at": "2026-11-09T11:52:15.476Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "firstcash-military-lending-act",
@@ -11218,6 +11835,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://www.firstcashsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#firstcash-military-lending-act",
    "source_name": "ClassAction.org open settlements list",
    "why": "The Amended Complaint alleges violations of the Military Lending Act, 10 U.S.C. § 987, and its implementing regulation, 32 C.F.R. pt. 232 (collectively, MLA), in addition to a Bureau Consent Order and section 1036(a) of the Consumer Financial Protection Act of 2010, 12 U.S.C. § 5536(a)(1)(A) (CFPA), in connection with Defendants' alleged issuance of pawn loans to covered servicemembers and their dependents.",
@@ -11249,7 +11867,8 @@
     "final": "https://www.firstcashsettlement.com/",
     "at": 1794225135592,
     "checked_at": "2026-11-09T11:52:15.592Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "kia-engine-failure",
@@ -11269,6 +11888,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://kiaengineclasssettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#kia-engine-failure",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Kia vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -11306,7 +11926,8 @@
     "final": "https://kiaengineclasssettlement.com/",
     "at": 1794225135417,
     "checked_at": "2026-11-09T11:52:15.417Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "branford-manor",
@@ -11330,6 +11951,7 @@
    },
    "proof": "No",
    "claim_url": "https://www.branfordmanorsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#branford-manor",
    "source_name": "ClassAction.org open settlements list",
    "why": "Residents allege Branford Manor caused them harm or losses connected to their homes or property.",
@@ -11361,63 +11983,8 @@
     "final": "https://www.branfordmanorsettlement.com/",
     "at": 1794225136006,
     "checked_at": "2026-11-09T11:52:16.006Z"
-   }
-  },
-  {
-   "id": "sanyo-energy-solar-panels",
-   "name": "Sanyo Energy - Solar Panels Settlement",
-   "defendant": "Sanyo Energy",
-   "country": "US",
-   "region": {
-    "states": [],
-    "note": "United States (nationwide)"
    },
-   "category": "housing",
-   "category_label": "Housing & property",
-   "class_definition": "You may be covered by this settlement if you bought solar panels from Sanyo or if you bought a residence or building with the panels already installed.",
-   "deadline": null,
-   "deadline_text": "Varies / ongoing (check official site)",
-   "payout": "Varies",
-   "payout_range": null,
-   "proof": "Yes",
-   "claim_url": "https://www.sanyosolarclaims.com/",
-   "source": "https://www.classaction.org/settlements#sanyo-energy-solar-panels",
-   "source_name": "ClassAction.org open settlements list",
-   "why": "Residents allege Sanyo Energy caused them harm or losses connected to their homes or property.",
-   "why_source": "general background for this case type",
-   "questions": [
-    {
-     "id": "core",
-     "kind": "req",
-     "q": "Is this true for you? You bought solar panels from Sanyo or if you bought a residence or building with the panels already installed."
-    },
-    {
-     "id": "us",
-     "kind": "req",
-     "q": "Did this happen in the United States?"
-    },
-    {
-     "id": "proof",
-     "kind": "info",
-     "q": "Do you have proof (receipts, statements, records) for this?"
-    }
-   ],
-   "questions_source": "auto-generated from class definition",
-   "docs": [
-    "Proof of purchase or records showing you are in the class"
-   ],
-   "tags": [
-    "sanyo energy"
-   ],
-   "featured": false,
-   "url_check": {
-    "status": 403,
-    "ok": true,
-    "note": "live (bot-protected; opens in a normal browser)",
-    "final": "https://www.sanyosolarclaims.com/",
-    "at": 1794225135402,
-    "checked_at": "2026-11-09T11:52:15.402Z"
-   }
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "gm-fuel-pumps",
@@ -11445,6 +12012,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.gmfuelpumplitigation.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#gm-fuel-pumps",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain GM vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -11480,7 +12048,8 @@
     "final": "https://www.gmfuelpumplitigation.com/",
     "at": 1794225135391,
     "checked_at": "2026-11-09T11:52:15.391Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "st-stephens-cemetery-kentucky",
@@ -11502,6 +12071,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://kycemeterysettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#st-stephens-cemetery-kentucky",
    "source_name": "ClassAction.org open settlements list",
    "why": "Buyers allege St. Stephen's Cemetery misrepresented its products or prices, or sold products that did not live up to what was advertised.",
@@ -11538,7 +12108,8 @@
     "final": "https://kycemeterysettlement.com/",
     "at": 1794225135407,
     "checked_at": "2026-11-09T11:52:15.407Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "ram-trucks-anti-lock-braking-system",
@@ -11558,6 +12129,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://fcarambrakesettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#ram-trucks-anti-lock-braking-system",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Ram Trucks vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -11595,7 +12167,8 @@
     "final": "https://fcarambrakesettlement.com/",
     "at": 1794225135416,
     "checked_at": "2026-11-09T11:52:15.416Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "huuuge-casino-mobile-games",
@@ -11615,6 +12188,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://huuugesettlement.com/home",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#huuuge-casino-mobile-games",
    "source_name": "ClassAction.org open settlements list",
    "why": "Buyers allege Huuuge Casino misrepresented its products or prices, or sold products that did not live up to what was advertised.",
@@ -11646,7 +12220,8 @@
     "final": "https://huuugesettlement.com/home",
     "at": 1794225135428,
     "checked_at": "2026-11-09T11:52:15.428Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "dodge-grand-caravan-sliding-doors",
@@ -11666,6 +12241,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.dodgeslidingdoorlatchsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#dodge-grand-caravan-sliding-doors",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain Dodge Grand Caravan vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -11703,7 +12279,8 @@
     "final": "https://www.dodgeslidingdoorlatchsettlement.com/",
     "at": 1794225135374,
     "checked_at": "2026-11-09T11:52:15.374Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "nyc-taxi-and-limousine-commission",
@@ -11723,6 +12300,7 @@
    "payout_range": null,
    "proof": "No",
    "claim_url": "https://www.tlcsuspensionclaims.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#nyc-taxi-and-limousine-commission",
    "source_name": "ClassAction.org open settlements list",
    "why": "Owners allege certain NYC Taxi and Limousine Commission vehicles have a defect that the company knew about or failed to fix properly. The settlement typically reimburses repair costs and/or extends warranty coverage.",
@@ -11756,7 +12334,8 @@
     "final": "https://www.tlcsuspensionclaims.com/",
     "at": 1794225135597,
     "checked_at": "2026-11-09T11:52:15.597Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "washington-nationals-discount-tickets",
@@ -11780,6 +12359,7 @@
    },
    "proof": "No",
    "claim_url": "https://natsdiscountticketsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#washington-nationals-discount-tickets",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Washington Nationals charged hidden or improper fees, or advertised prices that left out mandatory charges.",
@@ -11811,7 +12391,8 @@
     "final": "https://natsdiscountticketsettlement.com/",
     "at": 1794225135411,
     "checked_at": "2026-11-09T11:52:15.411Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "lincoln-university-covid-tuition",
@@ -11831,6 +12412,7 @@
    "payout_range": null,
    "proof": "Varies",
    "claim_url": "https://lincolncovidsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#lincoln-university-covid-tuition",
    "source_name": "ClassAction.org open settlements list",
    "why": "In this Action, Plaintiff alleged Lincoln breached a contract when it transitioned to remote learning in response to the COVID-19 pandemic. Plaintiff also alleged that Lincoln's shift to remote learning gave rise to a claim of unjust enrichment.",
@@ -11862,7 +12444,8 @@
     "final": "https://lincolncovidsettlement.com/",
     "at": 1794225135627,
     "checked_at": "2026-11-09T11:52:15.627Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "kaiser-permanente-out-of-network-claims",
@@ -11884,6 +12467,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.outofnetworkhealthclaims.com/home",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#kaiser-permanente-out-of-network-claims",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Kaiser Permanente overcharged or harmed patients or customers in connection with medical services or products.",
@@ -11920,7 +12504,8 @@
     "final": "https://www.outofnetworkhealthclaims.com/home",
     "at": 1794225135447,
     "checked_at": "2026-11-09T11:52:15.447Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "my-little-steamer",
@@ -11940,6 +12525,7 @@
    "payout_range": null,
    "proof": "Yes",
    "claim_url": "https://www.steamerrecallsettlement.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#my-little-steamer",
    "source_name": "ClassAction.org open settlements list",
    "why": "Buyers allege My Little Steamer misrepresented its products or prices, or sold products that did not live up to what was advertised.",
@@ -11976,7 +12562,8 @@
     "final": "https://www.steamerrecallsettlement.com/",
     "at": 1794225135478,
     "checked_at": "2026-11-09T11:52:15.478Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   },
   {
    "id": "theranos-blood-testing-services",
@@ -12000,6 +12587,7 @@
    },
    "proof": "Varies",
    "claim_url": "https://www.theranoslawsuit.com/",
+   "audience": "consumer",
    "source": "https://www.classaction.org/settlements#theranos-blood-testing-services",
    "source_name": "ClassAction.org open settlements list",
    "why": "The lawsuit alleges Theranos Blood Testing Services charged improper fees or mishandled customers' accounts or credit information in violation of consumer finance laws.",
@@ -12031,7 +12619,8 @@
     "final": "https://www.theranoslawsuit.com/",
     "at": 1794225135453,
     "checked_at": "2026-11-09T11:52:15.453Z"
-   }
+   },
+   "first_seen": "2026-11-09T11:53:00.000Z"
   }
  ]
 }

@@ -324,3 +324,36 @@ module.exports.ca = [
     questions: [Y('member', 'Did you serve in the CAF (enrolled between April 17, 1985 and Jan 10, 2025)?'), Y('racism', 'Did you experience racial discrimination or harassment connected to your service?'), Y('late', 'Can you explain why you are filing after Oct 15 (e.g., disability or exceptional circumstances)?', 'strong')],
     docs: ['Individual Claim Form', 'Short written explanation for the late filing'] },
 ];
+
+// ---- Business settlements (businesses/entities are class members) ----
+Object.assign(module.exports.us, {
+  'tyson-beef-prices': {
+    name: 'Tyson Beef Direct Purchaser Antitrust Settlement', defendant: 'Tyson Foods, Inc. & Tyson Fresh Meats (beef packers)', category: 'antitrust', audience: 'business',
+    claim_url: 'https://beefdirectpurchasersettlement.com/', url_manual: 'live (verified via web reader; the site blocks scripts)', payout: 'Pro rata share of $80M (plus earlier $52.5M JBS fund)',
+    tags: ['beef', 'tyson', 'jbs', 'cargill', 'national beef', 'meat', 'restaurant', 'grocery', 'food distributor', 'wholesale'],
+    why: 'Direct purchasers allege the four big beef packers (Tyson, JBS, Cargill and National Beef) conspired to cut slaughter volumes and raise wholesale beef prices from 2015 on. Tyson agreed to pay $82.5M ($80M to the class) and denies wrongdoing; JBS settled earlier for $52.5M. Claims that were already approved in the JBS settlement are included automatically.',
+    questions: [Y('direct', 'Did your business buy boxed or case-ready beef (chuck, loin, rib or round) DIRECTLY from Tyson, JBS, Cargill or National Beef (or their affiliates) between Jan 1, 2015 and Feb 29, 2020?'), Y('us', 'Was it for use or delivery in the United States?'), Y('notexcluded', 'Was at least some of it ordinary beef, i.e. NOT organic, grass-fed, kosher, halal, Wagyu, or cooked/marinated/seasoned?', 'strong'), Y('jbs', 'Did you already file a claim in the earlier JBS beef settlement? (If yes, you are included automatically.)', 'info'), Y('proof', 'Do you have invoices or purchase records from the packer?', 'info')],
+    docs: ['Purchase records/invoices from the packers (volume and dollars)', 'Business legal name and EIN/TIN', 'Your JBS claim number if you filed before'],
+  },
+  'john-deere-large-agricultural-equipment-repairs': {
+    defendant: 'Deere & Company', category: 'antitrust', audience: 'both',
+    tags: ['john deere', 'deere', 'tractor', 'combine', 'farm equipment', 'right to repair', 'farm', 'agriculture'],
+    why: 'Farmers allege Deere monopolized the repair market for its large agricultural equipment by withholding the software and tools needed for repairs, forcing owners to use Deere and its dealers at inflated prices. Deere denies wrongdoing.',
+    questions: [Y('paid', 'Did you (or your farm/business) pay Deere or an authorized Deere dealer for repair services on large John Deere agricultural equipment (e.g., tractors, combines) between Jan 10, 2018 and May 18, 2026?'), Y('us', 'Were the repairs done in the United States?'), Y('proof', 'Do you have repair invoices or dealer records?', 'info')],
+    docs: ['Dealer repair invoices (dates and amounts)', 'Equipment serial numbers', 'Business name and EIN if filing as a farm/business'],
+  },
+  'generic-pharmaceuticals-antitrust': { audience: 'both', category: 'antitrust', tags: ['generic drugs', 'health plan', 'self-insured employer', 'third-party payer', 'pharmacy', 'prescription'],
+    why: 'End payers allege generic drug makers conspired to fix prices and allocate customers for many generic drugs from 2009 to 2019. Consumers and third-party payers (health plans, self-insured employers) that paid for the drugs can claim from the settlements.' },
+  'twitter-acquisition-securities': { audience: 'both', category: 'securities', tags: ['twitter', 'stock', 'options', 'investor', 'fund', 'securities'] },
+  'sanyo-energy-solar-panels': { audience: 'both', tags: ['sanyo', 'solar panels', 'building owner', 'property'] },
+});
+module.exports.businessCA = ['ca-cibc-mutual-funds', 'ca-wayland-maricann'];
+module.exports.extraUS = [
+  { id: 'savannah-ready-mix-concrete', name: 'Savannah Ready-Mix Concrete Price-Fixing Settlements', defendant: 'Argos, Lafarge, Coastal, Thomas, Evans & Elite (ready-mix concrete producers)', category: 'antitrust', audience: 'business', country: 'US', region: { states: ['Georgia', 'South Carolina'], note: 'Greater Savannah, GA area plants' },
+    deadline: '2026-11-16', payout: 'Pro rata share of $19M+', proof: 'Varies', claim_url: 'https://savannahconcretecase.com/', source: 'https://savannahconcretecase.com/frequently-asked-questions.aspx',
+    tags: ['concrete', 'ready-mix', 'construction', 'contractor', 'builder', 'argos', 'lafarge', 'savannah'],
+    class_definition: 'All persons or entities who purchased ready-mixed concrete from January 1, 2010 through July 31, 2016 directly from one or more of the listed Savannah-area plants operated by the defendants (Pro Slab, Inc. v. Argos USA LLC, D.S.C.).',
+    why: 'Direct purchasers allege the Savannah-area ready-mix concrete producers conspired to fix prices from 2010 to 2016. Several defendants settled (over $19M total) without admitting wrongdoing; the case continues against others. Most class members were mailed a Claim ID and PIN with a pre-filled purchase amount.',
+    questions: [Y('direct', 'Did you or your business buy ready-mix concrete directly from Argos, Lafarge, Coastal, Thomas, Evans or Elite plants in the greater Savannah area between Jan 1, 2010 and July 31, 2016?'), Y('notice', 'Did you receive a notice with a Claim ID and PIN? (It contains your pre-filled purchase amount.)', 'strong'), Y('proof', 'Do you have receipts, delivery tickets or invoices if you want to dispute the pre-filled amount?', 'info')],
+    docs: ['Claim ID and PIN from the mailed notice', 'Delivery tickets / invoices to change the pre-filled amount'] },
+];

@@ -10,16 +10,18 @@
 <link rel="stylesheet" href="/app.css">
 </head>
 <body>
-<div class="legal-strip">Not legal advice. LawMeUp never files claims for you. You always apply on the official administrator's site.</div>
-<header class="top">
-  <a class="brand" href="#/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0b2545"/><path d="M16 6v19M9 25h14M8 10h16M8 10l-3.5 7h7zM24 10l-3.5 7h7z" stroke="#7ee2b8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/></svg><span>Law<b>Me</b>Up</span></a>
-  <nav><a href="#/browse" data-nav="browse">Browse</a><a href="#/qualify" data-nav="qualify" class="cta-link"><span class="lg">What do I qualify for?</span><span class="sm">Find mine</span></a><a href="#/about" data-nav="about">How it works</a></nav>
-</header>
+<div class="legal-strip"><b>Not legal advice.</b> LawMeUp never files claims for you. You always apply on the official site.</div>
+<header class="top"><div class="top-in">
+  <a class="brand" href="#/" aria-label="LawMeUp home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#0a1f3c"/><path d="M16 6v19M9 25h14M8 10h16M8 10l-3.5 7h7zM24 10l-3.5 7h7z" stroke="#6ee7b7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/></svg><span>Law<b>Me</b>Up</span></a>
+  <nav class="mainnav" aria-label="Main"><a href="#/browse" data-nav="browse"><span class="ni">⚖️</span>Settlements</a><a href="#/qualify" data-nav="qualify"><span class="ni">🧭</span>Qualify</a><a href="#/unclaimed" data-nav="unclaimed"><span class="ni">💰</span>Unclaimed money</a><a href="#/refunds" data-nav="refunds"><span class="ni">✈️</span>Refunds &amp; recalls</a><a href="#/business" data-nav="business"><span class="ni">🏢</span>Businesses</a><a href="#/watch" data-nav="watch"><span class="ni">🔔</span>Watch<span id="watch-badge" class="badge" hidden></span></a></nav>
+  <a class="top-cta" href="#/about" data-nav="about">How it works</a>
+</div></header>
 <main id="app" tabindex="-1"><div class="loading">Loading settlements…</div></main>
-<footer class="foot">
-  <p><b>LawMeUp is an information tool, not a law firm, and nothing here is legal advice.</b> Eligibility results are estimates based on your answers and the public class definition. Only the court-appointed settlement administrator decides claims. Never submit a claim unless everything in it is true; false claims can be fraud. LawMeUp is not affiliated with any settlement, administrator or law firm.</p>
-  <p class="muted" id="foot-meta"></p>
-</footer>
+<footer class="foot"><div class="foot-in"><div>
+  <p><b>LawMeUp is an information tool, not a law firm, and nothing here is legal advice.</b> Eligibility results are estimates based on your answers and the public class definition. Only the court-appointed administrator (or the airline, regulator or government program) decides. Never submit a claim unless everything in it is true; false claims can be fraud. LawMeUp isn't affiliated with any settlement, administrator, law firm or government.</p>
+  <p class="muted" id="foot-meta"></p></div>
+  <nav aria-label="Footer"><a href="#/browse">Settlements</a><a href="#/qualify">What do I qualify for?</a><a href="#/unclaimed">Unclaimed money</a><a href="#/refunds">Flight refunds &amp; recalls</a><a href="#/business">For businesses</a><a href="#/watch">Watch for new matches</a><a href="#/about">How it works</a></nav>
+</div></footer>
 <div id="modal" class="modal" hidden></div>
 <script src="/app.js"></script>
 </body>
